@@ -32,6 +32,13 @@ let closeModal = document.querySelector('.close-modal');
 
 // Home Code Game variables
 let homeCodeGame = document.querySelector('.home-code-game');
+// Array (storing game content text)
+let gameCodeMessage = ['<span><span class="color-blue">function</span> <span class="color-fuschia">factorial(n)</span> { </span><p><span> <span class="color-blue margin-1">let</span> result = 1; </span></p><p><span> <span class="color-blue margin-2">for</span> (<span class="color-blue">let</span> i = 1; i <= n; i++) { </span></p><p><span class="margin-2"> result *= i; </span></p><p><span class="margin-1"> } </span></p><p><span> <span class="color-blue margin-1">return</span> result; </span></p><p><span>} </span></p><p><span><span class="color-red">console.log</span>(<span class="color-fuschia">factorial</span>(5)); </span></p>',
+    '<span><span class="color-blue">#include</span> <span class="color-green">&lt;iostream&gt;</span></span></p><p><span>using namespace <span class="color-chocolate">std</span>;</span></p><br><p><span><span class="color-red">int</span> <span class="color-fuschia">factorial</span>(<span class="color-red">int</span> n) {</span></p><p><span class=" margin-1"><span class="color-red">int</span> result = 1;</span></p><p><span class="margin-1"><span class="color-blue">for</span> (<span class="color-red">int</span> i = 1; i <= n; i++) {</span></p><p><span class="margin-2">result *=i;</span></p><p><span class="margin-2">}</span></p><p><span class="margin-1"><span class="color-blue">return</span> result;</span></p><p><span>}</span></p><br><p><span><span class="color-red">int</span> <span class="color-fuschia">main</span>() {</span></p><p><span class="margin-1"><span class="color-red">int</span> n; <span class="color-chocolate">cout</span><< "Enter a number: " ; <span class="color-chocolate">cin</span>>> n;</span></p><p><span class="margin-1"><span class="color-chocolate">cout</span><< n << "! = " << <span><span class="color-fuschia">factorial(n)</span><< endl; </span></p><p><span><span class="color-blue">return</span> 0;</span></p><p><span>}</span>',
+    '<span><span class="color-blue">function</span> <span class="color-fuschia">factorial($n)</span> {</span><br><p><span><span class="color-red margin-1">$result</span> = 1;</span></p><p><span><span class="color-blue margin-1">for</span> (<span class="color-red">$i</span> = 1; <span class="color-red">$i</span><= <span class="color-red">$n</span>; <span class="color-red">$i</span>++) {</span></p><p><span><span class="color-red margin-2">$result</span> *= <span class="color-red">$i</span>;</span></p><p><span class="margin-2">}</span></p><p><span><span class="color-blue margin-1">return</span> <span class="color-red">$result</span>;</span></p><p><span>}</span></p><p><span><span class="color-chocolate">echo</span> <span class="color-fuschia">factorial(5)</span>;</span></p><br> <p><span>?&gt;</span></p>',
+    '<span><span class="color-blue">using</span> System;</span><br><br><p><span><span class="color-blue">namespace</span> <span class="color-chocolate">FactorialExample</span></span></p><p><span>{</span></p><p><span class="margin-1"><span class="color-blue">class</span> <span color="fuschia">Program</span></span></p><p><span class="margin-1">{</span></p><p><span class="margin-2"><span class="color-blue">static void</span> <span class="color-fuschia">Main</span>(<span class="color-red">string</span>[] args)</span></p><p><span class="margin-2">{</span></p><p><span class="margin-3">Console.WriteLine(Factorial(5));Console.WriteLine(Factorial(5));</span></p><p><span class="margin-2">}</span></p><p><span class="margin-2"><span class="color-blue">static</span> <span class="color-red">int</span> <span class="color-fuschia">Factorial</span>(<span class="color-red">int</span> n)</span></p><p><span class="margin-2">{</span></p><p><span class="margin-3"><span class="color-blue">if (n <= 1) <span class="color-blue">return</span> 1;</span></p><p><span class="margin-3"><span class="color-blue">return</span> n * Factorial(n - 1);</span></p><p><span class="margin-2">}</span></p><p><span class="margin-1">}</span></p><p><span>}</span></p>',
+    '<span><span class="color-blue">def</span> <span class="color-fuschia">factorial</span>(n):</span><br><p><span class="margin-1">result = 1</span></p><p><span class="margin-1"><span class="color-blue">for</span> i <span class="color-blue">in</span> <span class="color-chocolate">range</span>(1, n+1):</span></p><p><span class="margin-2">result *= i</span></p><p><span class="margin-1"><span class="color-blue">return</span> result</span></p><p><span><span class="color-chocolate">print</span>(<span class="color-fuschia">factorial</span>(5))</span></p>'
+];
 
 // Dropdown Function
 function showMenu() {
@@ -132,49 +139,45 @@ for (i = 0; i < submenu.length; i++) {
 }
 
 
-// setInterval(e => {
-    //     author.textContent += messg[increment];
-    //     console.log(author.textContent);
-    //     increment++;
-    //     if (increment === 10) {
-        //         clearInterval(e);
-        //     }
-        // }, 300);
-        
-// let increment = 0;
-// console.log(increment)
-// function testons() {
-//         author.textContent += messg[increment];
-//         console.log(author.textContent);
-//         increment+=increment;
-//     }
+// Guess the Code Game //
 
-// let interval = setInterval(testons(), 100);
-// setTimeout((e) => {
-//     clearInterval(interval)
-// }, 2000);
-// console.log(increment);
-
-testMsg = `<span><span>$ git</span><span class="code-line-argument"> clone </span>[repo]</span></p><p><span class="code-comment">// Clone un repository vers votre machine locale.</span></p><p><span class="code-comment">// Exemple:</span></p><p><span><span>$ git</span><span class="code-line-argument"> clone </span><span class="code-lines-italic">https://github.com/MetzyS/mediaPlayer.git</span></span>`;
-
-
-console.log(homeCodeGame);
-
-let increment = 0;
-let msgBuffer;
-function afficheLettres() {
-   if(increment < testMsg.length) {
-    // msgBuffer += testMsg.charAt(increment); fonctionne
-    msgBuffer = Array.from(testMsg);
-    // homeCodeGame.innerHTML += msgBuffer.charAt(increment);
-    homeCodeGame.innerHTML += msgBuffer[increment].shift();
-    // homeCodeGame.insertAdjacentHTML('beforeend', msgBuffer.charAt(increment));
-    increment++;
-    console.log(msgBuffer);
-       setTimeout(afficheLettres, 10);
-   }
+// Picks a random (int) index (from 0 to array.length) from an array
+function randomMessage(array) {
+    let random = Math.floor(Math.random() * array.length);
+    return random;
 }
+let randomIndex = randomMessage(gameCodeMessage)
 
-afficheLettres();
-// const doc = new DOMParser().parseFromString(testMsg, "text/html");
-// homeCodeGame.parse(testMsg);
+// Typewriter effect increment
+let increment = 0;
+
+// printSentence solves one problem:
+// if you print chars 1 by 1, JS encodes special chars in UTF-8
+// so HTML tags cannot be read.
+// Solution: When printSentence() finds a "<", it skips to ">" and print the whole
+// sequence as one string
+const printSentence = (sentence, speed = 50) => {
+    let index = 0;
+
+    let timer = setInterval(function () {
+        const char = sentence[randomIndex][index];
+
+        if (char === '<') {
+            index = sentence[randomIndex].indexOf('>', index);  // skip to greater-than
+        }
+
+        homeCodeGame.innerHTML = sentence[randomIndex].slice(0, index);
+
+        if (++index === sentence[randomIndex].length) {
+            clearInterval(timer);
+        }
+    }, speed);
+} // printSentence
+
+if (homeCodeGame) {
+    printSentence(
+        gameCodeMessage
+        ,
+        30
+    );
+}

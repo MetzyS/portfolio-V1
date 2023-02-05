@@ -54,12 +54,16 @@
                     </li>
                 </ul>
                 <div class="skills-flex-right">
-                <div class="pre-container-home">
-            <span class="code-title-home">Petit jeu! Devinez l'utilité du code :</span>
-            <div class="pre-style-home">
-                <p class="home-code-game"></p>
-            </div>
-        </div>
+                    <div class="pre-container-home">
+                        <p class="code-title-home"><span><?= $codeGame_title ?></span>
+                        </p>
+
+                        <div class="pre-style-home">
+                            <p class="home-code-game">
+
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

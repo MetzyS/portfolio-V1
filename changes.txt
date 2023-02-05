@@ -1,0 +1,7 @@
+03/02/23 -> HTML/CSS => removed border-bottom from nav links (desktop)
+04/02/23 -> CSS => added classes for JS typewritter
+04/02/23 -> JS => Function typewritter that allows HTML tags & JS arrays
+04/02/23 -> JS/HTML => started to create the "homeCodeGame" @ index
+05/02/23 -> PHP => Fixed redirection when you switched language, now it just refreshes the actual page.
+05/02/23 -> PHP => Technos_content page now uses php vars to generate text translation.
+05/02/23 -> HTML/CSS => Tweaked the technos_content layout => sticky menu on the left when page min-width=1024px
