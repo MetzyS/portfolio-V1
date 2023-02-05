@@ -28,7 +28,7 @@ include 'common/head.php';
             include 'content/projects_content.php';
             break;
         case 'technos':
-            include 'content/technos.php';
+            include 'content/technos_content.php';
             break;
         default:
             header('Location: content/404.php');
