@@ -12,7 +12,7 @@ include 'common/breadcrumb.php';
             <label for="name"><?= $c_name ?></label>
             <div class="input-style"><input type=" text" name="name" id="name"><i class="contact-icon icon-name"></i></div>
             <label for="mail"><?= $c_mail ?></label>
-            <div class="input-style"><input type="text" name="mail" id="mail"><i class="contact-icon icon-mail"></i></div>
+            <div class="input-style"><input type="text" name="email" id="email"><i class="contact-icon icon-email"></i></div>
             <label for="subject"><?= $c_subject ?></label>
             <div class="input-style"><input type="text" name="subject" id="subject"><i class="contact-icon icon-pen"></i></div>
             <label for="message"><?= $c_message ?></label>
