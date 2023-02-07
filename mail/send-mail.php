@@ -37,7 +37,7 @@ try {
     $mail->Password = "yourpassword";
 
     // MAIL Send
-    $mail->setFrom("$email or any@mail.com", $name);
+    $mail->setFrom($email, $name);
     $mail->addAddress("yourmail@mail.com", "yourname"); // reciever mail (your main email?)
 
     $mail->isHTML(true);
