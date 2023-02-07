@@ -67,7 +67,7 @@
             </div>
             <div class="header-lang">
                 <ul class="lang-list">
-                    <li class="lang-list-item"><a href="<?= $langLink_1 ?>" class="<?= $h_flag1 ?>"></a><a href="<?= $langLink_1 ?>"><?= $h_langString_1 ?></a>
+                    <li class="lang-list-item" data-lang=<?= $lang ?>><a href="<?= $langLink_1 ?>" class="<?= $h_flag1 ?>"></a><a href="<?= $langLink_1 ?>"><?= $h_langString_1 ?></a>
                         <ul class="lang-list-submenu">
                             <li class="lang-list-link"><a href="<?= $langLink_2 ?>" class="<?= $h_flag2 ?>"></a><a href="<?= $langLink_2 ?>"><span class="text-lang"><?= $h_langString_2 ?></span></a></li>
                         </ul>

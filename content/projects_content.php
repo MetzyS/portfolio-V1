@@ -6,41 +6,41 @@ include 'common/breadcrumb.php';
 ?>
 <div class="projects-container">
     <div class="title-box">
-        <h2><?=$p_myProjects?>
+        <h2><?= $p_myProjects ?>
         </h2>
-        <span class="projects-skills"><?=$p_webDev?></span>
+        <span class="projects-skills"><?= $p_webDev ?></span>
     </div>
     <div class="projects">
         <div class="project-box">
             <a href="http://www.metzys.net/projet-pelote/index.html" class="project-title">
-                <h4><?=$p_firstProjectTitle?></h4>
+                <h4><?= $p_firstProjectTitle ?></h4>
             </a>
-            <span class="project-details"><?=$p_firstProjectDetails?></span>
-            <span class="project-details"><?=$p_firstProjectTech?></span>
+            <span class="project-details"><?= $p_firstProjectDetails ?></span>
+            <span class="project-details"><?= $p_firstProjectTech ?></span>
             <a href="http://www.metzys.net/projet-pelote/index.html" class="project project-image img-pelote"></a>
         </div>
         <div class="project-box">
             <a href="https://metzys.net/projet-player/index.html" class="project-title">
-                <h4><?=$p_secondProjectTitle?></h4>
+                <h4><?= $p_secondProjectTitle ?></h4>
             </a>
-            <span class="project-details"><?=$p_secondProjectDetails?></span>
-            <span class="project-details"><?=$p_secondProjectTech?></span>
+            <span class="project-details"><?= $p_secondProjectDetails ?></span>
+            <span class="project-details"><?= $p_secondProjectTech ?></span>
             <a href="https://metzys.net/projet-player/index.html" class=" project project-image img-wmp"></a>
         </div>
         <div class="project-box">
             <a href="https://metzys.net/tp-include/index.php" class="project-title">
-                <h4><?=$p_thirdProjectTitle?></h4>
+                <h4><?= $p_thirdProjectTitle ?></h4>
             </a>
-            <span class="project-details"><?=$p_thirdProjectDetails?></span>
-            <span class="project-details"><?=$p_thirdProjectTech?></span>
+            <span class="project-details"><?= $p_thirdProjectDetails ?></span>
+            <span class="project-details"><?= $p_thirdProjectTech ?></span>
             <a href="https://metzys.net/tp-include/index.php" class="project project-image img-incl"></a>
         </div>
         <div class="project-box">
             <a href="https://metzys.net/projet-cms/" class="project-title">
-                <h4><?=$p_fourthProjectTitle?></h4>
+                <h4><?= $p_fourthProjectTitle ?></h4>
             </a>
-            <span class="project-details"><?=$p_fourthProjectDetails?></span>
-            <span class="project-details"><?=$p_fourthProjectTech?></span>
+            <span class="project-details"><?= $p_fourthProjectDetails ?></span>
+            <span class="project-details"><?= $p_fourthProjectTech ?></span>
             <a href="https://metzys.net/projet-cms/" class="project project-image img-cms"></a>
         </div>
     </div>
@@ -77,7 +77,7 @@ include 'common/breadcrumb.php';
     </div> -->
     <div class="title-box-design">
         <div class="projects-skills">
-            <span class="projects-skills"><?$g_graphismTitle?></span>
+            <span class="projects-skills"><? $g_graphismTitle ?></span>
         </div>
     </div>
 </div>

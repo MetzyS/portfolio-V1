@@ -17,12 +17,19 @@ let controlsWrapper = document.querySelector('.controls-wrapper');
 let controlButtons = document.querySelectorAll('.control-button');
 let nextButton = document.querySelector('#next');
 let prevButton = document.querySelector('#prev');
+let autoplayCheckbox = document.querySelector('#autoplay');
 let imgsArray = ['img-ludo', 'img-baj', 'img-alsh', 'img-alsh2', 'img-alsh3', 'img-carecover', 'img-univtel1', 'img-univtel2', 'img-hcg1', 'img-hcg2', 'img-info1', 'img-info2', 'img-info3'];
 let slide = document.querySelector('.slide');
 let slideDescript = document.querySelector('.slide-description');
-let slideDescriptDetails = document.querySelector('.slide-description-details')
+let slideDescriptDetails = document.querySelector('.slide-description-details');
+let lang = document.querySelector('.lang-list-item');
+/* Translation Text for the slider (generated via data-attr: data-lang (fr/en), this data-attr is set by $lang with php) */
+// French
 let slideDescriptArray = ['Ludothèque Familles Rurales', 'Ludothèque Familles Rurales', 'ALSH Familles Rurales', 'ALSH Familles Rurales', 'ALSH Familles Rurales', 'CareCover', "L'Univers du Téléphone", "L'Univers du Téléphone", 'Hérault Carte Grise', 'Hérault Carte Grise', 'Familles Rurales', 'Familles Rurales', 'Familles Rurales'];
-let slideDescriptDetailsArray = ['Première de couverture projet pédagogique', 'Flyer informations ludothèque', 'Livret programme ALSH (livret 1ère/4ème) 1', 'Livret programme ALSH (livret 1ère/4ème) 2', 'Livret programme ALSH (livret 1ère/4ème) 3', 'Flyer jeu concours', 'Flyer publicitaire', 'Flyer publicitaire n°2', 'Flyer publicitaire recto', 'Flyer publicitaire verso', 'Infographie ALSH page 1', 'Infographie ALSH page 2', 'Infographie ALSH page 3']
+let slideDescriptDetailsArray = ['Première de couverture projet pédagogique', 'Flyer informations', "Livret programme d'activités (1ère/4ème de couverture) 1", "Livret programme d'activités (1ère/4ème de couverture) 2", "Livret programme d'activités (1ère/4ème de couverture) 3", 'Flyer jeu concours', 'Flyer publicitaire', 'Flyer publicitaire n°2', 'Flyer publicitaire recto', 'Flyer publicitaire verso', 'Infographie ALSH page 1', 'Infographie ALSH page 2', 'Infographie ALSH page 3'];
+// English
+let slideDescriptArrayEnglish = ['Toy Library (Familles Rurales)', 'Toy Library (Familles Rurales)', 'Community Center (Familles Rurales)', 'Community Center (Familles Rurales)', 'Community Center (Familles Rurales)', 'CareCover', "L'Univers du Téléphone", "L'Univers du Téléphone", 'Hérault Carte Grise', 'Hérault Carte Grise', 'Familles Rurales', 'Familles Rurales', 'Familles Rurales'];
+let slideDescriptDetailsArrayEnglish = ['Cover page for the Educational Project', 'Informative flyer', 'Activities Schedule (cover page/fourth cover) 1', 'Activities Schedule (cover page/fourth cover) 2', 'Activities Schedule (cover page/fourth cover) 3', 'Flyer social media contest', 'Advertising flyer', 'Advertising flyer n°2', 'Advertising flyer recto', 'Advertising flyer verso', 'Infographic page 1', 'Infographic page 2', 'Infographic page 3'];
 
 // Modal variables
 let modal = document.querySelector('.modal-back');
@@ -64,35 +71,81 @@ function sliderMoveNext() {
         y = 0;
         slide.classList.add(imgsArray[y]);
         modalImage.classList.add(imgsArray[y]);
-        slideDescript.textContent = slideDescriptArray[y];
-        slideDescriptDetails.textContent = slideDescriptDetailsArray[y];
+        // checks the data-attr to pick text from the correct array (fr/en)
+        if (lang.dataset.lang == 'fr') {
+            slideDescript.textContent = slideDescriptArray[y];
+            slideDescriptDetails.textContent = slideDescriptDetailsArray[y];
+        }
+        else {
+            slideDescript.textContent = slideDescriptArrayEnglish[y];
+            slideDescriptDetails.textContent = slideDescriptDetailsArrayEnglish[y];
+        }
     } else {
         slide.classList.add(imgsArray[y]);
         modalImage.classList.add(imgsArray[y]);
-        slideDescript.textContent = slideDescriptArray[y];
-        slideDescriptDetails.textContent = slideDescriptDetailsArray[y];
+        if (lang.dataset.lang == 'fr') {
+            slideDescript.textContent = slideDescriptArray[y];
+            slideDescriptDetails.textContent = slideDescriptDetailsArray[y];
+        }
+        else {
+            slideDescript.textContent = slideDescriptArrayEnglish[y];
+            slideDescriptDetails.textContent = slideDescriptDetailsArrayEnglish[y];
+        }
     }
 }
 
 function sliderMovePrev() {
+    // deletes all images
     for (i = 0; i < imgsArray.length; i++) {
         slide.classList.remove(imgsArray[i]);
         modalImage.classList.remove(imgsArray[i]);
     }
+    // new iterator to add images/text
     y -= 1;
     if (y < 0) {
         y = imgsArray.length - 1;
         slide.classList.add(imgsArray[y]);
         modalImage.classList.add(imgsArray[y]);
-        slideDescript.textContent = slideDescriptArray[y];
-        slideDescriptDetails.textContent = slideDescriptDetailsArray[y];
+        // checks the data-attr to pick text from the correct array (fr/en)
+        if (lang.dataset.lang == 'fr') {
+            slideDescript.textContent = slideDescriptArray[y];
+            slideDescriptDetails.textContent = slideDescriptDetailsArray[y];
+            console.log(lang.dataset.lang);
+        }
+        else {
+            slideDescript.textContent = slideDescriptArrayEnglish[y];
+            slideDescriptDetails.textContent = slideDescriptDetailsArrayEnglish[y];
+            console.log(lang.dataset.lang);
+        }
     } else {
         slide.classList.add(imgsArray[y]);
         modalImage.classList.add(imgsArray[y]);
-        slideDescript.textContent = slideDescriptArray[y];
-        slideDescriptDetails.textContent = slideDescriptDetailsArray[y];
+        if (lang.dataset.lang == 'fr') {
+            slideDescript.textContent = slideDescriptArray[y];
+            slideDescriptDetails.textContent = slideDescriptDetailsArray[y];
+        }
+        else {
+            slideDescript.textContent = slideDescriptArrayEnglish[y];
+            slideDescriptDetails.textContent = slideDescriptDetailsArrayEnglish[y];
+        }
     }
 }
+
+function autoPlay(slider) {
+    if (slider.checked) {
+        window.sliderInterval = setInterval(e => {
+            nextButton.click();
+        }, 1500);
+    }
+    else {
+        clearInterval(window.sliderInterval);
+    }
+}
+
+autoplayCheckbox.addEventListener('click', e => {
+    autoPlay(autoplayCheckbox);
+})
+
 
 function toggleModal() {
     modal.classList.toggle('hidden');
@@ -106,6 +159,13 @@ function toggleModal() {
     prevButton.classList.toggle('prev');
     nextButton.classList.toggle('next');
 }
+
+function forceCloseModal() {
+    modal.classList.add('hidden');
+    closeButton.classList.add('hidden');
+    gridContainer.classList.remove('overflow-hide');
+}
+
 
 if (nextButton) {
     nextButton.addEventListener('click', (e) => {
@@ -122,6 +182,30 @@ if (pop) {
     });
     closeButton.addEventListener('click', (e) => {
         toggleModal();
+    })
+
+    if (gridContainer.classList.contains('overflow-hide')) {
+        console.log('hidden');
+    }
+
+
+    window.addEventListener('keydown', function (even) {
+        var key = event.which || event.keyCode;
+        if (key === 27) {
+            modal.classList.toggle('hidden');
+            closeButton.classList.toggle('hidden');
+            gridContainer.classList.toggle('overflow-hide');
+            controlsWrapper.classList.toggle('controls-wrapper');
+            controlsWrapper.classList.toggle('controls-wrapper-expanded');
+            for (i = 0; i < controlButtons.length; i++) {
+                controlButtons[i].classList.toggle('controls-style');
+            }
+            prevButton.classList.toggle('prev');
+            nextButton.classList.toggle('next');
+        }
+        else {
+            console.log('wronng key');
+        }
     })
 }
 

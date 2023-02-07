@@ -5,3 +5,6 @@
 05/02/23 -> PHP => Fixed redirection when you switched language, now it just refreshes the actual page.
 05/02/23 -> PHP => Technos_content page now uses php vars to generate text translation.
 05/02/23 -> HTML/CSS => Tweaked the technos_content layout => sticky menu on the left when page min-width=1024px
+07/02/23 -> HTML/PHP/JS => Added data-attr in header that changes with $lang. Allows JS to read what language is used (for the slider in the projects page).
+07/02/23 -> JS => Added JS function for the auto play checkbox (projects page) + Esc key to close modal.
+07/02/23 -> JS => Added translations for the slider text (checks the data-attr lang and picks between FR array or EN array).
