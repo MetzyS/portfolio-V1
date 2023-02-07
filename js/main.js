@@ -142,10 +142,11 @@ function autoPlay(slider) {
     }
 }
 
-autoplayCheckbox.addEventListener('click', e => {
-    autoPlay(autoplayCheckbox);
-})
-
+if (autoplayCheckbox) {
+    autoplayCheckbox.addEventListener('click', e => {
+        autoPlay(autoplayCheckbox);
+    });
+}
 
 function toggleModal() {
     modal.classList.toggle('hidden');
@@ -207,20 +208,20 @@ if (pop) {
             console.log('wronng key');
         }
     })
-}
+};
 
 subMenuTechno.addEventListener('click', (e) => {
     subMenuTechno.classList.toggle('submenu');
     for (i = 0; i < submenu.length; i++) {
         submenu[i].classList.toggle('hidden');
     }
-})
+});
 
 for (i = 0; i < submenu.length; i++) {
     submenu[i].addEventListener('click', (e) => {
         showMenu();
     })
-}
+};
 
 
 // Guess the Code Game //

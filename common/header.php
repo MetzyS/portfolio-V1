@@ -24,8 +24,8 @@
                 <li class="drop-animation hidden submenu" id="submenu"><a href="?page=technos" class="drop-item"><?= $h_technosAll ?></a></li>
                 <li class="drop-animation hidden submenu" id="submenu"><a href="?page=technos#git" class="drop-item">Git & GitHub</a></li>
                 <li class="drop-animation hidden submenu" id="submenu"><a href="?page=technos#bootstrap" class="drop-item">Bootstrap</a></li>
-                <li><a href="#" class="drop-item"><?= $h_CV ?></a></li>
-                <li><a href="#" class="drop-item">Contact</a></li>
+                <li><a href="?page=cv" class="drop-item"><?= $h_CV ?></a></li>
+                <li><a href="?page=contact" class="drop-item"><?= $h_contact ?></a></li>
                 <li>
                     <div class="waves-container2">
                         <svg class="waves2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -62,7 +62,7 @@
                         </ul>
                     </li>
                     <li class="header-menu-desktop-item"><a href="?page=cv" class="drop-item-desktop-a"><?= $h_CV ?></a></li>
-                    <li class="header-menu-desktop-item"><a href="?page=contact" class="drop-item-desktop-a">Contact</a></li>
+                    <li class="header-menu-desktop-item"><a href="?page=contact" class="drop-item-desktop-a"><?= $h_contact ?></a></li>
                 </ul>
             </div>
             <div class="header-lang">

@@ -101,7 +101,7 @@ include 'common/breadcrumb.php';
         </div>
     </div>
     <div class="autoplay">
-        <label for="autoplay">Défilement automatique</label>
+        <label for="autoplay"><?= $p_autoPlay ?></label>
         <input type="checkbox" name="autoplay" id="autoplay">
     </div>
 </div>

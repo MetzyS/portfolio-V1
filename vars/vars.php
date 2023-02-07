@@ -7,6 +7,7 @@ if ($lang == 'fr') {
     $h_technos = 'Technos';
     $h_technosAll = 'Toutes les veilles';
     $h_CV = 'CV';
+    $h_contact = 'Contact';
     $h_flag1 = 'flag fr-flag';
     $h_flag2 = 'flag en-flag';
     $langLink_1 = 'pref/lang-fr.php?page=' . $page;
@@ -49,6 +50,7 @@ if ($lang == 'fr') {
     $p_fourthProjectTitle = 'Blog de Matt';
     $p_fourthProjectDetails = 'Blog CMS';
     $p_fourthProjectTech = 'Langages utilisés: CSS, WordPress';
+    $p_autoPlay = 'Défilement automatique';
 
     // Graphism
     $g_graphismTitle = 'Graphisme/Design:';
@@ -73,6 +75,15 @@ if ($lang == 'fr') {
     $t_boot1 = "Bootstrap est un framework CSS open-source utilisé pour le développement d'applications web. Il est très populaire car il fournit une série d'outils pré-conçus pour une mise en forme rapide et cohérente de sites web, économisant ainsi du temps et de l'effort de codage.";
     $t_boot2 = "La fonctionnalité la plus intéressante offerte par Bootstrap est son système de grid.";
     $t_boot3 = "En effet, Bootstrap fournit un grid flexible pour organiser le contenu en colonnes et en lignes. Pour l'implémenter, vous pouvez utiliser les classes CSS telles que <span class=" . 'color-bootstrap' . ">'container'</span>, <span class=" . 'color-bootstrap' . ">'row'</span> et <span class=" . 'color-bootstrap' . ">'col'</span>.";
+
+    // Contact
+    $c_title = "Contact";
+    $c_subTitle = "Contactez-moi via le formulaire ci-dessous";
+    $c_name = 'Votre nom';
+    $c_mail = 'Votre mail';
+    $c_subject = 'Sujet';
+    $c_message = 'Votre message';
+    $c_submit = 'Envoyer';
 };
 
 
@@ -89,6 +100,7 @@ if ($lang == 'en') {
     $h_technos = 'Technos';
     $h_technosAll = 'All Researches';
     $h_CV = 'Resume';
+    $h_contact = 'Contact';
     $h_flag1 = 'flag en-flag';
     $h_flag2 = 'flag fr-flag';
     $langLink_1 = 'pref/lang-en.php?page=' . $page;
@@ -131,6 +143,7 @@ if ($lang == 'en') {
     $p_fourthProjectTitle = "Matt's Blog";
     $p_fourthProjectDetails = 'CMS Blog';
     $p_fourthProjectTech = 'Languages used: CSS, WordPress';
+    $p_autoPlay = 'Auto play';
 
     // Graphism
     $g_graphismTitle = 'Graphism/Design:';
@@ -154,6 +167,15 @@ if ($lang == 'en') {
     $t_boot1 = "Bootstrap is an open-source CSS framework used for web development. It's very popular because it provides a set of pre-designed tools for quick and consistent web formatting, saving time and coding effort.";
     $t_boot2 = "The most interesting feature offered by Bootstrap is its grid system.";
     $t_boot3 = "Indeed, Bootstrap provides a flexible grid for organizing content into columns and rows. To implement it, you can use CSS classes such as <span class=" . 'color-bootstrap' . "> 'container'</span>, <span class=" . 'color-bootstrap' . ">'row'</span>, and <span class=" . 'color-bootstrap' . ">'col'</span>.";
+
+    // Contact
+    $c_title = "Contact";
+    $c_subTitle = "Contact me through this form";
+    $c_name = 'Name';
+    $c_mail = 'Email';
+    $c_subject = 'Subject';
+    $c_message = 'Your message';
+    $c_submit = 'Submit';
 };
 
 
