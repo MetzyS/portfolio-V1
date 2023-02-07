@@ -84,6 +84,8 @@ if ($lang == 'fr') {
     $c_subject = 'Sujet';
     $c_message = 'Votre message';
     $c_submit = 'Envoyer';
+    $c_confirmMsg = "Votre mail à bien été envoyé.";
+    $c_errorMsg = "Erreur survenue lors de l'envoi du mail";
 };
 
 
@@ -176,6 +178,8 @@ if ($lang == 'en') {
     $c_subject = 'Subject';
     $c_message = 'Your message';
     $c_submit = 'Submit';
+    $c_confirmMsg = "Your email was sent successfuly.";
+    $c_errorMsg = "Error while sending your email";
 };
 
 

@@ -49,12 +49,9 @@ try {
 
     $mail->send();
     $_SESSION['mail-status'] = "sent";
-    header('Location: ../index.php?page=home');
+    header('Location: ../index.php?page=contact');
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    $_SESSION['mail-status'] = "error";
+    header('Location: ../index.php?page=contact');
+    $_SESSION['mail-error'] = $mail->ErrorInfo;
 };
-
-
-
-// header('Location: ../index.php?page=contact');
-// exit;

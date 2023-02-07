@@ -19,5 +19,19 @@ include 'common/breadcrumb.php';
             <div class="input-style input-style-txtarea"><textarea name="message" id="message"></textarea></div>
             <button type="submit" id="submit-contact"><?= $c_submit ?></button>
         </form>
+        <p><?php
+            if (!isset($_SESSION['mail-status'])) {
+                $_SESSION['mail-status'] = "";
+            };
+            if ($_SESSION['mail-status'] == 'sent') {
+                echo $c_confirmMsg;
+                unset($_SESSION['mail-status']);
+            } elseif (isset($_SESSION['mail-error'])) {
+                echo $_SESSION['mail-error'];
+                unset($_SESSION['mail-status']);
+                unset($_SESSION['mail-error']);
+            };
+            ?>
+        </p>
     </div>
 </div>

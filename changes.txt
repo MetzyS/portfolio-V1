@@ -8,5 +8,5 @@
 07/02/23 -> HTML/PHP/JS => added data-attr in header that changes with $lang. Allows JS to read what language is used (for the slider in the projects page).
 07/02/23 -> JS => added JS function for the auto play checkbox (projects page) + Esc key to close modal.
 07/02/23 -> JS => added translations for the slider text (checks the data-attr lang and picks between FR array or EN array).
-07/02/23 -> HTML/CSS => added contact form/style/icons.
-07/02/23 -> PHP => PHPMailer + send-mail.php.
+07/02/23 -> HTML/CSS/PHP => added contact form/style/icons.
+07/02/23 -> PHP => PHPMailer + send-mail.php + redirection & message sent/error.
