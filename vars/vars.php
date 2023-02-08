@@ -57,6 +57,8 @@ if ($lang == 'fr') {
     $g_graphismTitle = 'Graphisme/Design:';
 
     // Technos
+    $t_research = "veilles technologiques";
+    // Git
     $t_gitp1 = 'Git est un système de contrôle de version distribué pour le suivi des modifications dans les fichiers de code. Il permet aux développeurs de garder une trace de chaque modification et de collaborer sur des projets de manière efficace.
                 Git est largement utilisé en raison de ses nombreuses fonctionnalités, telles que la gestion des branches, les révisions rapides et faciles, la capacité à travailler en ligne ou hors ligne, la sécurité de vos données grâce à un stockage réparti sur plusieurs ordinateurs, etc.';
 
@@ -180,6 +182,7 @@ if ($lang == 'en') {
     $g_graphismTitle = 'Graphism/Design:';
 
     // Technos
+    $t_research = "small researches";
     //// git
     $t_gitp1 = 'Git is a distributed version control system for tracking changes in code files. It allows developers to keep track of each modification and collaborate on projects efficiently. Git is widely used due to its many features, such as branch management, fast and easy revisions, the ability to work online or offline, the security of your data through storage distributed across multiple computers, etc.';
     $t_gitp2 = 'It is open-source and can be used for free. Additionally, it is compatible with many operating systems and has an active community of contributors, meaning that bugs are quickly fixed and new features are regularly added.';

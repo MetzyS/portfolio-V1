@@ -10,13 +10,13 @@ include 'common/breadcrumb.php';
             <li class="menu-separator"></li>
             <li class="left-menu-item"><a href="#bootstrap">Bootstrap</a></li>
             <li class="menu-separator"></li>
-            <li class="left-menu-item"><a href="#laravel">Laravel</a></li>
-            <li class="menu-separator"></li>
+            <!-- <li class="left-menu-item"><a href="#laravel">Laravel</a></li>
+            <li class="menu-separator"></li> -->
         </ul>
     </div>
     <div class="right-content">
         <div class="technos-title-box">
-            <h2>veilles technologiques
+            <h2><?= $t_research ?>
             </h2>
             <span class="projects-skills" id="git">Git & GitHub:</span>
         </div>
