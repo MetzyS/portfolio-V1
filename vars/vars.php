@@ -25,7 +25,8 @@ if ($lang == 'fr') {
     $m_quote = 'rien n&#39;est plus permanent qu&#39;une solution temporaire';
     $m_author = 'Probablement un Web Dev..';
     $m_aboutTitle = 'qui suis-je ?';
-    $m_aboutText = 'Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem en français';
+    $m_aboutText = "Ancien directeur d'ACM avec plusieurs années d'expérience dans le monde de l'animation. J'ai décidé de me reconvertir dans le développement web en 2022, en raison de ma passion pour l'informatique, le code et les jeux vidéo.";
+    $m_aboutTextShort = "Ancien directeur d'ACM aujourd'hui Développeur Web";
     $m_skillsTitle = 'competences';
     $m_skillsDesignTitle = 'maquetter';
     $m_skillsDesignDetail = 'interface statique & dynamique';
@@ -86,6 +87,33 @@ if ($lang == 'fr') {
     $c_submit = 'Envoyer';
     $c_confirmMsg = "Votre mail à bien été envoyé.";
     $c_errorMsg = "Erreur survenue lors de l'envoi du mail";
+
+    // CV
+    $cv_profile = "Profil";
+    $cv_experience = "Experience";
+    $cv_exp1 = "Directeur ALSH/ALP";
+    $cv_exp2 = "Directeur adjoint ALSH";
+    $cv_exp3 = "Animateur ALSH/ALP";
+    $cv_exp4 = "Animateur ALSH/ALP";
+
+    $cv_qualities = "Qualités";
+    $cv_independant = "Autonome";
+    $cv_organized = "Organisé";
+    $cv_dynamic = "Dynamique";
+    $cv_creative = "Créatif";
+
+    $cv_hobbies = "Intérêts";
+
+    $cv_dev = "Développeur Web / Web Mobile";
+    $cv_rep = "Réparations micro-électronique";
+    $cv_bafd = "BAFD";
+    $cv_bafa = "BAFA QUALIF: Surveillant Baignade";
+    $cv_psc1 = "PSC1 / Formations DDCS";
+    $cv_univ = "Niveau Universitaire";
+    $cv_bac = "Baccalauréat";
+
+    $cv_paulva = "Université Paul Valery / Jean Moulin Béziers";
+    $cv_psy = "Psychologie";
 };
 
 
@@ -120,7 +148,8 @@ if ($lang == 'en') {
     $m_quote = 'nothing is more permanent than a temporary solution';
     $m_author = 'Some Web Dev.. probably';
     $m_aboutTitle = 'about me';
-    $m_aboutText = 'Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem in english';
+    $m_aboutText = 'Former head of Communities Centers with many years of experience. I decided to switch to web development in 2022, driven by my passion for computers, coding and video games.';
+    $m_aboutTextShort = 'Former head of Communities Center now Web Developper';
     $m_skillsTitle = 'skills';
     $m_skillsDesignTitle = 'design';
     $m_skillsDesignDetail = 'static & dynamic';
@@ -180,6 +209,33 @@ if ($lang == 'en') {
     $c_submit = 'Submit';
     $c_confirmMsg = "Your email was sent successfuly.";
     $c_errorMsg = "Error while sending your email";
+
+    // CV
+    $cv_profile = "Profile";
+    $cv_experience = "Experience";
+    $cv_exp1 = "Community Center Director";
+    $cv_exp2 = "Community Center Assistant Director";
+    $cv_exp3 = "Community Center Staff";
+    $cv_exp4 = "Community Center Staff";
+
+    $cv_qualities = "Qualities";
+    $cv_independant = "Independant";
+    $cv_organized = "Organized";
+    $cv_dynamic = "Dynamic";
+    $cv_creative = "Creative";
+
+    $cv_hobbies = "Hobbies";
+
+    $cv_dev = "Web Developper / Mobile Web";
+    $cv_rep = "Micro-electronic repairs";
+    $cv_bafd = "BAFD";
+    $cv_bafa = "BAFA QUALIF: Lifeguard";
+    $cv_psc1 = "PSC1 / DDCS Formations";
+    $cv_univ = "University level";
+    $cv_bac = "Bachelor degree";
+
+    $cv_paulva = "University Paul Valery / Jean Moulin Béziers";
+    $cv_psy = "Psychology";
 };
 
 

@@ -10,3 +10,5 @@
 07/02/23 -> JS => added translations for the slider text (checks the data-attr lang and picks between FR array or EN array).
 07/02/23 -> HTML/CSS/PHP => added contact form/style/icons.
 07/02/23 -> PHP => PHPMailer + send-mail.php + redirection & message sent/error.
+08/02/23 -> HTML/CSS => added CV/Resume page content + style.
+08/02/23 -> PHP => added translation's variables for Resume page.
