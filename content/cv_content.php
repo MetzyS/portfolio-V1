@@ -112,9 +112,9 @@ include './common/breadcrumb.php';
                     <div>
                         <p><span class="cv-exp-title"><?= $cv_univ ?></span></p>
                         <p><span class="cv-exp-d"><?= $cv_paulva ?></span></p>
-                        <p><span class="cv-exp-d">1ère année BTS MUC</span></p>
-                        <p><span class="cv-exp-d">L1 LLCER</span></p>
-                        <p><span class="cv-exp-d">L1 <?= $cv_psy ?></span></p>
+                        <p><span class="cv-exp-d"><?= $cv_bts?></span></p>
+                        <p><span class="cv-exp-d"><?= $cv_llcer?></span></p>
+                        <p><span class="cv-exp-d"><?= $cv_psy ?></span></p>
                     </div>
                 </div>
 
@@ -125,7 +125,7 @@ include './common/breadcrumb.php';
                     <div>
                         <p><span class="cv-exp-title"><?= $cv_bac ?></span></p>
                         <p><span class="cv-exp-d">Jean Moulin Béziers</span></p>
-                        <p><span class="cv-exp-d">Sciences et technologies de la gestion</span></p>
+                        <p><span class="cv-exp-d"><?= $cv_spebac ?></span></p>
                     </div>
                 </div>
 

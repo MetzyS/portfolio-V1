@@ -115,7 +115,10 @@ if ($lang == 'fr') {
     $cv_bac = "Baccalauréat";
 
     $cv_paulva = "Université Paul Valery / Jean Moulin Béziers";
-    $cv_psy = "Psychologie";
+    $cv_bts = "1ère année BTS M.U.C";
+    $cv_psy = "L1 Psychologie";
+    $cv_llcer = "L1 LLCER";
+    $cv_spebac = "Sciences & Technologies de la Gestion";
 };
 
 
@@ -238,10 +241,8 @@ if ($lang == 'en') {
     $cv_bac = "Bachelor degree";
 
     $cv_paulva = "University Paul Valery / Jean Moulin Béziers";
-    $cv_psy = "Psychology";
+    $cv_bts = "1st year BTEC/Associate Degree";
+    $cv_psy = "L1 Psychology";
+    $cv_llcer = "L1 Literature, language, foreign & regional civilizations";
+    $cv_spebac = "Management Sciences and Technologies";
 };
-
-
-// POUR CHANGER LE TEXTE DU SLIDER EN JS => CREER UNE CLASSE OU UN DATA ATTRIBUT PHP EN RELATION AVEC
-// $_SESSION['lang'] POUR POUVOIR CHOPPER L'INFO EN JS ET DANS LE JS FAIRE UN IF/ELSE DE CETTE CLASSE
-// ET CHANGER LE/LES TEXTES DANS LES TABLEAUX CONTENANT DU TEXTE SELON LA LANGUE.

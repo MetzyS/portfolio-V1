@@ -12,3 +12,4 @@
 07/02/23 -> PHP => PHPMailer + send-mail.php + redirection & message sent/error.
 08/02/23 -> HTML/CSS => added CV/Resume page content + style.
 08/02/23 -> PHP => added translation's variables for Resume page.
+09/02/23 -> PHP => added some missing translations.
