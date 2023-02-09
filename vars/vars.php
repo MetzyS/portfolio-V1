@@ -2,7 +2,7 @@
 
 if ($lang == 'fr') {
     // Header
-    $h_home = 'Acceuil';
+    $h_home = 'Accueil';
     $h_projects = 'Projets';
     $h_technos = 'Technos';
     $h_technosAll = 'Toutes les veilles';
