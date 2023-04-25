@@ -475,7 +475,10 @@ header {
 }
 
 .close-burger-icon {
-    background: url(../assets/img/burger.png);
+    background: url(../assets/img/close-burger.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 @media screen and (min-width: 769px) {

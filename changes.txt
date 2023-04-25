@@ -16,3 +16,5 @@
 25/04/23 -> PHP => added some translate variables (home & project page)
 25/04/23 -> HTML/CSS => added some infos in homepage + icons
 25/04/23 -> CSS => fixed padding on language settings 'FR' / 'EN'
+25/04/23 -> General => Images & icons compression
+25/04/23 -> CSS => added Burger menu close icon 
