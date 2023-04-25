@@ -45,36 +45,6 @@ include 'common/breadcrumb.php';
         </div>
     </div>
     <div class="sep"></div>
-    <!-- <div class="projects">
-        <div class="project-box">
-            <a href="#" class="project-title">
-                <h4>Ludothèque Familles Rurales</h4>
-            </a>
-            <span class="project-details">Première de couverture projet pédagogique</span>
-            <a href="#" class="project project-image img-ludo"></a>
-        </div>
-        <div class="project-box">
-            <a href="#">
-                <h4>Ludothèque Familles Rurales</h4>
-            </a>
-            <span class="project-details">Flyer informations ludothèque</span>
-            <a href="#" class="project project-image img-baj"></a>
-        </div>
-        <div class="project-box">
-            <a href="#">
-                <h4>ALSH Familles Rurales</h4>
-            </a>
-            <span class="project-details">Flyer programme ALSH (1ère/4ème)</span>
-            <a href="#" class="project project-image img-alsh"></a>
-        </div>
-        <div class="project-box">
-            <a href="#">
-                <h4>Ludothèque Familles Rurales</h4>
-            </a>
-            <span class="project-details">Flyer informations ludothèque</span>
-            <a href="#" class="project project-image img-ludo"></a>
-        </div>
-    </div> -->
     <div class="title-box-design">
         <div class="projects-skills">
             <span class="projects-skills"><? $g_graphismTitle ?></span>
@@ -85,8 +55,8 @@ include 'common/breadcrumb.php';
 
 <div class="slider-container">
     <div class="slider-description">
-        <h4 class="slide-description">Ludothèque Familles Rurales</h4>
-        <span class="project-details slide-description-details">Première de couverture projet pédagogique</span>
+        <h4 class="slide-description"><?= $slider_firstSlideTitle ?></h4>
+        <span class="project-details slide-description-details"><?= $slider_firstSlideTitle ?></span>
     </div>
     <button class="close-button hidden">Fermer</button>
     <div class=" slider">

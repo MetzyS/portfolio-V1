@@ -77,6 +77,8 @@
             <span class="skills-text"><?= $m_skillsDatabaseTitle ?></span>
             <ul class="list">
                 <li class="list-item icon-mysql"></li>
+                <li class="list-item icon-mariadb"></li>
+                <li class="list-item icon-phpmyadmin"></li>
             </ul>
         </li>
         <li class="skills-item back-end-dyn">
@@ -89,6 +91,20 @@
             <span class="skills-text"><?= $m_skillsFrameWorksTitle ?></span>
             <ul class="list">
                 <li class="list-item icon-laravel"></li>
+            </ul>
+        </li>
+        <li class="skills-item back-end-dyn">
+            <span class="skills-text"><?= $m_skillsSoftwares ?></span>
+            <ul class="list">
+                <li class="list-item icon-xampp"></li>
+                <li class="list-item icon-mamp"></li>
+            </ul>
+        </li>
+        <li class="skills-item back-end-dyn">
+            <span class="skills-text"><?= $m_skillsVersioning ?></span>
+            <ul class="list">
+                <li class="list-item icon-git"></li>
+                <li class="list-item icon-github"></li>
             </ul>
         </li>
     </ul>

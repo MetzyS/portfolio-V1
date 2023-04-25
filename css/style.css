@@ -373,6 +373,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 15px 5px;
 }
 
 .lang-list-submenu:hover {
@@ -384,6 +385,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100%;
+    padding: 0 15px;
 }
 
 .lang-list-item a,
@@ -731,12 +733,36 @@ header {
     background: url(../assets/img/mysql-icon.svg);
 }
 
+.icon-mariadb {
+    background: url(../assets/img/mariadb-icon.svg);
+}
+
+.icon-phpmyadmin {
+    background: url(../assets/img/phpmyadmin-icon.svg);
+}
+
 .icon-php {
     background: url(../assets/img/php-icon.svg);
 }
 
 .icon-laravel {
     background: url(../assets/img/laravel-icon.svg);
+}
+
+.icon-xampp {
+    background: url(../assets/img/xampp-icon.svg);
+}
+
+.icon-mamp {
+    background: url(../assets/img/mamp-icon.svg);
+}
+
+.icon-git {
+    background: url(../assets/img/git-icon.svg);
+}
+
+.icon-github {
+    background: url(../assets/img/github-icon.svg);
 }
 
 .fr-flag {
@@ -913,7 +939,7 @@ footer {
 
 @media screen and (min-width: 769px) {
     .breadcrumb {
-        margin: 65px 0 25px;
+        margin: 80px 0 25px;
     }
 }
 

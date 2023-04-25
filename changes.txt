@@ -13,3 +13,6 @@
 08/02/23 -> HTML/CSS => added CV/Resume page content + style.
 08/02/23 -> PHP => added translation's variables for Resume page.
 09/02/23 -> PHP => added some missing translations.
+25/04/23 -> PHP => added some translate variables (home & project page)
+25/04/23 -> HTML/CSS => added some infos in homepage + icons
+25/04/23 -> CSS => fixed padding on language settings 'FR' / 'EN'

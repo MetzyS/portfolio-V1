@@ -32,6 +32,8 @@ if ($lang == 'fr') {
     $m_skillsDesignDetail = 'interface statique & dynamique';
     $m_skillsCmsTitle = 'cms';
     $m_skillsFrameWorksTitle = 'frameworks';
+    $m_skillsSoftwares = 'logiciels';
+    $m_skillsVersioning = 'versionnage';
     $m_skillsDatabaseTitle = 'BDD';
     $m_PDO = 'Acces aux données';
     $m_linksTitle = 'Liens';
@@ -51,6 +53,8 @@ if ($lang == 'fr') {
     $p_fourthProjectTitle = 'Blog de Matt';
     $p_fourthProjectDetails = 'Blog CMS';
     $p_fourthProjectTech = 'Langages utilisés: CSS, WordPress';
+    $slider_firstSlideTitle = 'Ludothèque Familles Rurales';
+    $slider_firstSlideSubtitle = 'Première de couverture projet pédagogique';
     $p_autoPlay = 'Défilement automatique';
 
     // Graphism
@@ -160,6 +164,8 @@ if ($lang == 'en') {
     $m_skillsDesignDetail = 'static & dynamic';
     $m_skillsCmsTitle = 'cms';
     $m_skillsFrameWorksTitle = 'frameworks';
+    $m_skillsSoftwares = 'softwares';
+    $m_skillsVersioning = 'versioning';
     $m_skillsDatabaseTitle = 'Database';
     $m_PDO = 'PDO';
     $m_linksTitle = 'Links';
@@ -179,6 +185,8 @@ if ($lang == 'en') {
     $p_fourthProjectTitle = "Matt's Blog";
     $p_fourthProjectDetails = 'CMS Blog';
     $p_fourthProjectTech = 'Languages used: CSS, WordPress';
+    $slider_firstSlideTitle = 'Toy Library (Familles Rurales)';
+    $slider_firstSlideSubtitle = 'Cover page for the Educational Project';
     $p_autoPlay = 'Auto play';
 
     // Graphism
