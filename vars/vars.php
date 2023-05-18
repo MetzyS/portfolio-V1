@@ -52,8 +52,13 @@ if ($lang == 'fr') {
     $p_thirdProjectTech = 'Langages utilisés: PHP, JS, SQL, HTML, CSS';
     $p_cloudDetails = '* Espace de partage, d&#39;archivage et de gestion de fichiers crée pour une entreprise, from scratch. Si vous souhaitez tester le site et avoir un aperçu du code, veuillez me contacter!';
     $p_fourthProjectTitle = 'Blog de Matt';
+<<<<<<< HEAD
     $p_fourthProjectDetails = 'Blog WordPress';
     $p_fourthProjectTech = 'Langages utilisés: CSS';
+=======
+    $p_fourthProjectDetails = 'Blog CMS';
+    $p_fourthProjectTech = 'Langages utilisés: CSS, WordPress';
+>>>>>>> a7e00460556ba61057ae70d4561a54ddf036e105
     $slider_firstSlideTitle = 'Ludothèque Familles Rurales';
     $slider_firstSlideSubtitle = 'Première de couverture projet pédagogique';
     $p_autoPlay = 'Défilement automatique';
@@ -184,9 +189,14 @@ if ($lang == 'en') {
     $p_thirdProjectDetails = 'Dynamic Web Application (PHP)';
     $p_thirdProjectTech = 'Languages used: PHP, JS, SQL, HTML, CSS';
     $p_fourthProjectTitle = "Matt's Blog";
+<<<<<<< HEAD
     $p_fourthProjectDetails = 'WordPress Blog';
     $p_fourthProjectTech = 'Languages used: CSS';
     $p_cloudDetails = '* Platform for sharing, archiving and managing files. Created from scratch for a company. If you wish to test the web app and have a preview of the code, feel free to contact me!';
+=======
+    $p_fourthProjectDetails = 'CMS Blog';
+    $p_fourthProjectTech = 'Languages used: CSS, WordPress';
+>>>>>>> a7e00460556ba61057ae70d4561a54ddf036e105
     $slider_firstSlideTitle = 'Toy Library (Familles Rurales)';
     $slider_firstSlideSubtitle = 'Cover page for the Educational Project';
     $p_autoPlay = 'Auto play';
