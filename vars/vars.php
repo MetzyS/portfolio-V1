@@ -2,7 +2,7 @@
 
 if ($lang == 'fr') {
     // Header
-    $h_home = 'Acceuil';
+    $h_home = 'Accueil';
     $h_projects = 'Projets';
     $h_technos = 'Technos';
     $h_technosAll = 'Toutes les veilles';
@@ -32,8 +32,10 @@ if ($lang == 'fr') {
     $m_skillsDesignDetail = 'interface statique & dynamique';
     $m_skillsCmsTitle = 'cms';
     $m_skillsFrameWorksTitle = 'frameworks';
+    $m_skillsSoftwares = 'logiciels';
+    $m_skillsVersioning = 'versionnage';
     $m_skillsDatabaseTitle = 'BDD';
-    $m_PDO = 'Acces aux données';
+    $m_PDO = 'Accès aux données';
     $m_linksTitle = 'Liens';
 
     // Projects
@@ -44,13 +46,16 @@ if ($lang == 'fr') {
     $p_firstProjectTech = 'Langages utilisés: HTML, CSS';
     $p_secondProjectTitle = 'Walkman Media Player';
     $p_secondProjectDetails = 'Application web Dynamique (JS)';
-    $p_secondProjectTech = 'Langages utilisés: HTML, CSS, JS';
-    $p_thirdProjectTitle = 'GRETA Badminton';
-    $p_thirdProjectDetails = 'Dynamic Web Application (PHP)';
-    $p_thirdProjectTech = 'Langages utilisés: HTML, CSS, JS, PHP';
+    $p_secondProjectTech = 'Langages utilisés: JS, HTML, CSS';
+    $p_thirdProjectTitle = 'Cloud d&#39;entreprise*';
+    $p_thirdProjectDetails = 'Application Web Dynamique (PHP)';
+    $p_thirdProjectTech = 'Langages utilisés: PHP, JS, SQL, HTML, CSS';
+    $p_cloudDetails = '* Espace de partage, d&#39;archivage et de gestion de fichiers crée pour une entreprise, from scratch. Si vous souhaitez tester le site et avoir un aperçu du code, veuillez me contacter!';
     $p_fourthProjectTitle = 'Blog de Matt';
-    $p_fourthProjectDetails = 'Blog CMS';
-    $p_fourthProjectTech = 'Langages utilisés: CSS, WordPress';
+    $p_fourthProjectDetails = 'Blog WordPress';
+    $p_fourthProjectTech = 'Langages utilisés: CSS';
+    $slider_firstSlideTitle = 'Ludothèque Familles Rurales';
+    $slider_firstSlideSubtitle = 'Première de couverture projet pédagogique';
     $p_autoPlay = 'Défilement automatique';
 
     // Graphism
@@ -115,7 +120,10 @@ if ($lang == 'fr') {
     $cv_bac = "Baccalauréat";
 
     $cv_paulva = "Université Paul Valery / Jean Moulin Béziers";
-    $cv_psy = "Psychologie";
+    $cv_bts = "1ère année BTS M.U.C";
+    $cv_psy = "L1 Psychologie";
+    $cv_llcer = "L1 LLCER";
+    $cv_spebac = "Sciences & Technologies de la Gestion";
 };
 
 
@@ -157,6 +165,8 @@ if ($lang == 'en') {
     $m_skillsDesignDetail = 'static & dynamic';
     $m_skillsCmsTitle = 'cms';
     $m_skillsFrameWorksTitle = 'frameworks';
+    $m_skillsSoftwares = 'softwares';
+    $m_skillsVersioning = 'versioning';
     $m_skillsDatabaseTitle = 'Database';
     $m_PDO = 'PDO';
     $m_linksTitle = 'Links';
@@ -169,13 +179,16 @@ if ($lang == 'en') {
     $p_firstProjectTech = 'Languages used: HTML, CSS';
     $p_secondProjectTitle = 'Walkman Media Player';
     $p_secondProjectDetails = 'Dynamic Web Application (JS)';
-    $p_secondProjectTech = 'Languages used: HTML, CSS, JS';
-    $p_thirdProjectTitle = 'GRETA Badminton';
+    $p_secondProjectTech = 'Languages used: JS, HTML, CSS';
+    $p_thirdProjectTitle = 'Cloud Storage*';
     $p_thirdProjectDetails = 'Dynamic Web Application (PHP)';
-    $p_thirdProjectTech = 'Languages used: HTML, CSS, JS, PHP';
+    $p_thirdProjectTech = 'Languages used: PHP, JS, SQL, HTML, CSS';
     $p_fourthProjectTitle = "Matt's Blog";
-    $p_fourthProjectDetails = 'CMS Blog';
-    $p_fourthProjectTech = 'Languages used: CSS, WordPress';
+    $p_fourthProjectDetails = 'WordPress Blog';
+    $p_fourthProjectTech = 'Languages used: CSS';
+    $p_cloudDetails = '* Platform for sharing, archiving and managing files. Created from scratch for a company. If you wish to test the web app and have a preview of the code, feel free to contact me!';
+    $slider_firstSlideTitle = 'Toy Library (Familles Rurales)';
+    $slider_firstSlideSubtitle = 'Cover page for the Educational Project';
     $p_autoPlay = 'Auto play';
 
     // Graphism
@@ -238,10 +251,8 @@ if ($lang == 'en') {
     $cv_bac = "Bachelor degree";
 
     $cv_paulva = "University Paul Valery / Jean Moulin Béziers";
-    $cv_psy = "Psychology";
+    $cv_bts = "1st year BTEC/Associate Degree";
+    $cv_psy = "L1 Psychology";
+    $cv_llcer = "L1 Literature, language, foreign & regional civilizations";
+    $cv_spebac = "Management Sciences and Technologies";
 };
-
-
-// POUR CHANGER LE TEXTE DU SLIDER EN JS => CREER UNE CLASSE OU UN DATA ATTRIBUT PHP EN RELATION AVEC
-// $_SESSION['lang'] POUR POUVOIR CHOPPER L'INFO EN JS ET DANS LE JS FAIRE UN IF/ELSE DE CETTE CLASSE
-// ET CHANGER LE/LES TEXTES DANS LES TABLEAUX CONTENANT DU TEXTE SELON LA LANGUE.

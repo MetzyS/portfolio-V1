@@ -210,12 +210,12 @@ if (pop) {
     })
 };
 
-subMenuTechno.addEventListener('click', (e) => {
-    subMenuTechno.classList.toggle('submenu');
-    for (i = 0; i < submenu.length; i++) {
-        submenu[i].classList.toggle('hidden');
-    }
-});
+// subMenuTechno.addEventListener('click', (e) => {
+//     subMenuTechno.classList.toggle('submenu');
+//     for (i = 0; i < submenu.length; i++) {
+//         submenu[i].classList.toggle('hidden');
+//     }
+// });
 
 for (i = 0; i < submenu.length; i++) {
     submenu[i].addEventListener('click', (e) => {
