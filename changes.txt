@@ -26,3 +26,5 @@
 31/05/23 -> PHP => added translations variables for AI skillset
 31/05/23 -> HTML/CSS => fixed W3C Validator errors for Home Page
 31/05/23 -> minor fixes project page
+01/06/23 -> HTML/CSS => updated resume, added blocks (skills web, skills data..)
+01/06/23 -> PHP => added translations variables for the new resume

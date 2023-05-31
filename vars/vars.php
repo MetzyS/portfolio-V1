@@ -26,7 +26,8 @@ if ($lang == 'fr') {
     $m_author = 'Probablement un Web Dev..';
     $m_aboutTitle = 'qui suis-je ?';
     $m_aboutText = "Ancien directeur d'ACM avec plusieurs années d'expérience dans le monde de l'animation. J'ai décidé de me reconvertir dans le développement web en 2022, en raison de ma passion pour l'informatique, le code et les jeux vidéo.";
-    $m_aboutTextShort = "Ancien directeur d'ACM aujourd'hui Développeur Web";
+    $m_aboutTextShort = "Passionné, en quête perpétuelle d'apprentissage et de développement de mes compétences, je suis animé par une volonté de relever de nouveaux défis et de contribuer à des projets innovants.<br>
+Ma créativité et ma sociabilité font de moi un collaborateur dynamique et engagé.";
     $m_skillsTitle = 'competences';
     $m_webDev = 'Développement Web';
     $m_skillsDesignTitle = 'maquetter';
@@ -107,20 +108,46 @@ if ($lang == 'fr') {
     // CV
     $cv_profile = "Profil";
     $cv_experience = "Experience";
+    $cv_exp0 = "Stage Développeur Web";
+    $cv_exp0_details = "- Création d'un cloud privé from scratch";
+    $cv_exp0_details2 = "- Création d'un site vitrine";
     $cv_exp1 = "Directeur ALSH/ALP";
     $cv_exp2 = "Directeur adjoint ALSH";
     $cv_exp3 = "Animateur ALSH/ALP";
     $cv_exp4 = "Animateur ALSH/ALP";
 
+    $cv_skills_web = 'Compétences Web';
+    $cv_web_first = "Maquettage";
+    $cv_web_second = "Intégration";
+    $cv_web_third = "Frameworks";
+    $cv_web_fourth = "BDD";
+    $cv_web_fifth = "Dynamique";
+    $cv_web_sixth = "Framework";
+
+    $cv_skills_ds = 'Compétences Data';
+    $cv_skills_ds_ia = 'AI';
+    $cv_ia_first = "Development";
+    $cv_ia_second = "Visualization<br>& Processing";
+    $cv_ia_third = "Deep learning";
+    $cv_ia_fourth = "Database";
+    $cv_ia_fifth = "Dynamic";
+    $cv_ia_sixth = "Framework";
+
     $cv_qualities = "Qualités";
-    $cv_independant = "Autonome";
-    $cv_organized = "Organisé";
-    $cv_dynamic = "Dynamique";
-    $cv_creative = "Créatif";
+    $cv_q_first = "Créativité";
+    $cv_q_second = "Esprit d'équipe";
+    $cv_q_third = "Adaptation";
+    $cv_q_fourth = "Empathie";
+    $cv_q_fifth = "Problem solving";
 
     $cv_hobbies = "Intérêts";
 
-    $cv_dev = "Développeur Web / Web Mobile";
+    $cv_dev_cda = "Concepteur développeur d'applications";
+    $cv_ibm = "Académie IBM Montpellier";
+    $cv_ia = 'Spécialité Intelligence Artificielle';
+    $cv_bacp3 = "Bac +3";
+    $cv_dev_dwwm = "Développeur Web / Web Mobile";
+    $cv_bacp2 = "Bac +2";
     $cv_rep = "Réparations micro-électronique";
     $cv_bafd = "BAFD";
     $cv_bafa = "BAFA QUALIF: Surveillant Baignade";
@@ -168,7 +195,7 @@ if ($lang == 'en') {
     $m_author = 'Some Web Dev.. probably';
     $m_aboutTitle = 'about me';
     $m_aboutText = 'Former head of Communities Centers with many years of experience. I decided to switch to web development in 2022, driven by my passion for computers, coding and video games.';
-    $m_aboutTextShort = 'Former head of Communities Center now Web Developper';
+    $m_aboutTextShort = "Passionate and always eager to learn and develop my skills, I'm driven by a desire to tackle new challenges and contribute to innovative projects.<br>My creativity and sociability make me a dynamic and dedicated collaborator.";
     $m_skillsTitle = 'skills';
     $m_webDev = 'Web Development';
     $m_skillsDesignTitle = 'design';
@@ -247,20 +274,46 @@ if ($lang == 'en') {
     // CV
     $cv_profile = "Profile";
     $cv_experience = "Experience";
+    $cv_exp0 = "Intership Web Developer";
+    $cv_exp0_details = "- Created a private cloud from scratch";
+    $cv_exp0_details2 = "- Created a showcase website";
     $cv_exp1 = "Community Center Director";
     $cv_exp2 = "Community Center Assistant Director";
     $cv_exp3 = "Community Center Staff";
     $cv_exp4 = "Community Center Staff";
 
-    $cv_qualities = "Qualities";
-    $cv_independant = "Independant";
-    $cv_organized = "Organized";
-    $cv_dynamic = "Dynamic";
-    $cv_creative = "Creative";
+    $cv_skills_web = 'Skills Web';
+    $cv_web_first = "Design";
+    $cv_web_second = "Development";
+    $cv_web_third = "Frameworks";
+    $cv_web_fourth = "Database";
+    $cv_web_fifth = "Dynamic";
+    $cv_web_sixth = "Framework";
+
+    $cv_skills_ds = 'Skills Data Science';
+    $cv_skills_ds_ia = 'AI';
+    $cv_ia_first = "Development";
+    $cv_ia_second = "Visualization<br>& Processing";
+    $cv_ia_third = "Deep learning";
+    $cv_ia_fourth = "Database";
+    $cv_ia_fifth = "Dynamic";
+    $cv_ia_sixth = "Framework";
+
+    $cv_qualities = "Soft-skills";
+    $cv_q_first = "Creativity";
+    $cv_q_second = "Teamwork";
+    $cv_q_third = "Adaptability";
+    $cv_q_fourth = "Empathy";
+    $cv_q_fifth = "Problem solving";
 
     $cv_hobbies = "Hobbies";
 
-    $cv_dev = "Web Developper / Mobile Web";
+    $cv_dev_cda = "Software developer";
+    $cv_ibm = "IBM Academy Montpellier";
+    $cv_ia = 'Specialization in Artificial Intelligence';
+    $cv_bacp3 = "Bachelor's degree";
+    $cv_dev_dwwm = "Web Developper / Mobile Web";
+    $cv_bacp2 = "Associate's degree";
     $cv_rep = "Micro-electronic repairs";
     $cv_bafd = "BAFD";
     $cv_bafa = "BAFA QUALIF: Lifeguard";
@@ -271,6 +324,6 @@ if ($lang == 'en') {
     $cv_paulva = "University Paul Valery / Jean Moulin Béziers";
     $cv_bts = "1st year BTEC/Associate Degree";
     $cv_psy = "L1 Psychology";
-    $cv_llcer = "L1 Literature, language, foreign & regional civilizations";
+    $cv_llcer = "L1 Literature, language, foreign civilizations";
     $cv_spebac = "Management Sciences and Technologies";
 };
