@@ -38,9 +38,14 @@ if ($lang == 'fr') {
     $m_PDO = 'Accès aux données';
     $m_linksTitle = 'Liens';
 
+    // Home - Games
+    $g_ticTacToc = 'Morpion';
+    $g_JS = ' - JavaScript';
+
     // Projects
     $p_myProjects = 'mes projets';
     $p_webDev = 'Developpement Web:';
+    $p_communication = 'Communication:';
     $p_firstProjectTitle = 'Pelote et Rebelote';
     $p_firstProjectDetails = 'Site web Statique (responsive)';
     $p_firstProjectTech = 'Langages utilisés: HTML, CSS';
@@ -171,9 +176,14 @@ if ($lang == 'en') {
     $m_PDO = 'PDO';
     $m_linksTitle = 'Links';
 
+    //Home - Games
+    $g_ticTacToc = 'TicTacToe';
+    $g_JS = ' - JavaScript';
+
     // Projects
     $p_myProjects = 'my projects';
     $p_webDev = 'Web Dev:';
+    $p_communication = 'Communication:';
     $p_firstProjectTitle = 'Pelote et Rebelote';
     $p_firstProjectDetails = 'Static Website (responsive)';
     $p_firstProjectTech = 'Languages used: HTML, CSS';

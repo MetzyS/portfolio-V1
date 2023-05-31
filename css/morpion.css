@@ -1,0 +1,215 @@
+:root {
+    --primary-color: #4ab7b8;
+    --secondary-color: #f0b238;
+    --bcg-color-secondary: rgb(130, 168, 228);
+    --bg-color: #1a2b33;
+    --square-color: #1E3640;
+    --square-color-light: #5a6672;
+    --shadow: rgba(13, 34, 43, 0.5);
+}
+
+
+/* Titre */
+.morpion-title {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 800;
+}
+
+/* Commandes */
+.commands {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 310px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.cross-icon {
+    background: url('../assets/morpion/icons/x.svg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 1em;
+    margin-right: 5px;
+    width: 1em;
+}
+
+.circle-icon {
+    background: url('../assets/morpion/icons/circle.svg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 1em;
+    width: 1em;
+}
+
+.turn {
+    align-items: center;
+    background-color: var(--square-color);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--shadow);
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    gap: 10px;
+    justify-content: center;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+.cross-turn {
+    background: url('../assets/morpion/icons/x.svg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 1em;
+    width: 1em;
+}
+
+.circle-turn {
+    background: url('../assets/morpion/icons/circle.svg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 1em;
+    width: 1em;
+}
+
+.btn-reset {
+    background: url('../assets/morpion/icons/reset.svg') no-repeat;
+    background-color: lightgray;
+    background-position: center;
+    background-size: 15px;
+    border: none;
+    border-radius: 20%;
+    box-shadow: 2px 2px 2px var(--shadow);
+    height: 25px;
+    width: 25px;
+}
+
+.btn-reset:focus,
+.btn-reset:hover {
+    background-color: white;
+}
+
+.btn-reset:active {
+    transform: scale(.90);
+    background-color: #47525D;
+}
+
+
+/* Grille de jeu */
+.wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.square {
+    align-items: center;
+    background-color: var(--square-color);
+    /* border: 1px solid var(--bg-color); */
+    border-radius: 20%;
+    box-shadow: 2px 2px 2px rgba(13, 34, 43, 0.8);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 50px;
+}
+
+.square:hover {
+    background-color: var(--square-color-light);
+}
+
+.square:hover .circle,
+.square:hover .cross {
+    background-color: var(--square-color-light);
+}
+
+
+/* Composants du jeu */
+
+.circle {
+    border: 7px solid var(--secondary-color);
+    background-color: var(--square-color);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.circle:hover {
+    background-color: #47525D;
+}
+
+.cross {
+    position: relative;
+    background-color: var(--square-color);
+    height: 35px;
+    width: 35px;
+    transform: rotate(45deg);
+}
+
+.cross:hover {
+    background-color: var(--square-color-light);
+}
+
+.cross:before,
+.cross:after {
+    content: "";
+    position: absolute;
+    background-color: #82A8E4;
+}
+
+.cross:before {
+    height: 100%;
+    left: 50%;
+    margin-left: -15%;
+    width: 30%;
+}
+
+.cross:after {
+    height: 30%;
+    margin-top: -15%;
+    top: 50%;
+    width: 100%;
+}
+
+/* Infos (victoire) */
+
+.info {
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.winner-cross {
+    color: var(--primary-color);
+}
+
+.winner-circle {
+    color: var(--secondary-color);
+}

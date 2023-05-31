@@ -12,12 +12,12 @@ include 'common/breadcrumb.php';
     </div>
     <div class="projects">
         <div class="project-box">
-            <a href="http://www.metzys.net/projet-pelote/index.html" class="project-title">
-                <h4><?= $p_firstProjectTitle ?></h4>
+            <a href="https://metzys.net/tp-include/index.php" class="project-title">
+                <h4><?= $p_thirdProjectTitle ?></h4>
             </a>
-            <span class="project-details"><?= $p_firstProjectDetails ?></span>
-            <span class="project-details"><?= $p_firstProjectTech ?></span>
-            <a href="http://www.metzys.net/projet-pelote/index.html" class="project project-image img-pelote"></a>
+            <span class="project-details"><?= $p_thirdProjectDetails ?></span>
+            <span class="project-details"><?= $p_thirdProjectTech ?></span>
+            <a href="https://metzys.net/projet-cloud/public/" class="project project-image img-cloud"></a>
         </div>
         <div class="project-box">
             <a href="https://metzys.net/projet-player/index.html" class="project-title">
@@ -28,12 +28,12 @@ include 'common/breadcrumb.php';
             <a href="https://metzys.net/projet-player/index.html" class=" project project-image img-wmp"></a>
         </div>
         <div class="project-box">
-            <a href="https://metzys.net/tp-include/index.php" class="project-title">
-                <h4><?= $p_thirdProjectTitle ?></h4>
+            <a href="http://www.metzys.net/projet-pelote/index.html" class="project-title">
+                <h4><?= $p_firstProjectTitle ?></h4>
             </a>
-            <span class="project-details"><?= $p_thirdProjectDetails ?></span>
-            <span class="project-details"><?= $p_thirdProjectTech ?></span>
-            <a href="https://metzys.net/projet-cloud/public/" class="project project-image img-cloud"></a>
+            <span class="project-details"><?= $p_firstProjectDetails ?></span>
+            <span class="project-details"><?= $p_firstProjectTech ?></span>
+            <a href="http://www.metzys.net/projet-pelote/index.html" class="project project-image img-pelote"></a>
         </div>
         <div class="project-box">
             <a href="https://metzys.net/projet-cms/" class="project-title">
@@ -51,8 +51,8 @@ include 'common/breadcrumb.php';
             <span class="projects-skills"><? $g_graphismTitle ?></span>
         </div>
     </div>
+    <span class="projects-skills"><?= $p_communication ?></span>
 </div>
-
 
 <div class="slider-container">
     <div class="slider-description">

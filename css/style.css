@@ -3,25 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap%27');
 
 :root {
-    --text-color: #0D0C0C;
+    --author-size: 14px;
     --bcg-color: #fff;
     --bcg-color-primary: rgb(219, 233, 255);
     --bcg-color-primary-accent: rgba(130, 168, 228);
     --bcg-color-secondary: rgb(130, 168, 228);
+    --bcrumb-color: #d9d9d9;
+    --separation-color: #D9D9D9;
+    --text-color: #0D0C0C;
     --title-size: 16px;
     --text-size: 14px;
-    --author-size: 14px;
-    --separation-color: #D9D9D9;
-    --bcrumb-color: #d9d9d9;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    color: var(--text-color);
     box-sizing: border-box;
-    list-style: none;
+    color: var(--text-color);
     font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* header desktop */
@@ -31,10 +31,10 @@
 
 .header-menu-desktop-list {
     display: flex;
+    gap: 30px;
     justify-content: center;
     text-align: center;
     width: 100%;
-    gap: 30px;
 }
 
 .technos-list {
@@ -42,25 +42,24 @@
 }
 
 .header-desktop-submenu-list {
+    background-color: var(--bcg-color-primary);
     display: none;
     flex-direction: column;
-    position: absolute;
     height: 145px;
+    position: absolute;
     width: 200px;
-    /* width:max-content; */
-    background-color: var(--bcg-color-primary);
 }
 
 .drop-item-desktop {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    top: 10px;
-    padding: 8px 7px 8px;
-    line-height: 2em;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    justify-self: center;
     align-self: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    height: 100%;
+    justify-self: center;
+    line-height: 2em;
+    padding: 8px 7px 8px;
+    top: 10px;
+    width: 100%;
 }
 
 .header-menu-desktop-item:hover {
@@ -68,13 +67,13 @@
 }
 
 .spoiler {
-    color: white;
     background-color: white;
+    color: white;
 }
 
 .spoiler:hover {
-    color: white;
     background-color: black;
+    color: white;
 }
 
 @media screen and (min-width: 769px) {
@@ -95,24 +94,24 @@
     }
 
     .drop-item-desktop-a {
+        align-items: center;
         display: inline-flex;
-        text-align: center;
-        padding: 5px 15px;
-        line-height: 2em;
         height: 40px;
         justify-content: center;
-        align-items: center;
+        line-height: 2em;
+        padding: 5px 15px;
+        text-align: center;
     }
 
     #drop-item-desktop-a-technos::after {
-        display: flex;
+        align-items: center;
         content: "v";
+        display: flex;
+        font-size: 12px;
+        height: 30px;
+        justify-content: center;
         text-align: center;
         width: 15px;
-        height: 30px;
-        font-size: 12px;
-        align-items: center;
-        justify-content: center;
     }
 
     .header-menu-desktop-item:hover>#drop-item-desktop-a-technos::after {
@@ -130,19 +129,19 @@
 }
 
 .pre-container {
-    position: relative;
     min-height: 90px;
+    position: relative;
 }
 
 .pre-style {
-    position: absolute;
-    font-size: calc(var(--text-size)*0.85);
-    padding: 10px;
     background-color: rgba(0, 0, 0, 0.9);
-    overflow: auto;
-    right: 0;
+    font-size: calc(var(--text-size)*0.85);
     left: 0;
+    overflow: auto;
+    padding: 10px;
     padding-bottom: 15px;
+    position: absolute;
+    right: 0;
 }
 
 @media screen and (min-width: 1024px) {
@@ -883,6 +882,10 @@ footer {
     max-height: 245px;
 }
 
+.skills-game-commands {
+    display: none;
+}
+
 @media screen and (min-width: 1440px) {
     .pre-style-home {
         max-width: 500px;
@@ -914,17 +917,37 @@ footer {
         height: 45px;
     }
 
-    /* .skills-item {
-        max-width: 85%;
-    } */
-
     .skills-item span {
         max-width: unset;
     }
 
     .skills-flex-right {
         display: flex;
+        margin-top: -75px;
         width: 45%;
+        align-items: center;
+    }
+
+    .skills-game-commands {
+        display: block;
+        cursor: pointer;
+    }
+
+    .command-prev {
+        background: url('../assets/icons/prev.svg') no-repeat;
+        background-position: center;
+        border: none;
+        height: 20px;
+        width: 20px;
+    }
+
+    .command-next {
+        background: url('../assets/icons/prev.svg') no-repeat;
+        background-position: center;
+        border: none;
+        height: 20px;
+        transform: rotate(180deg);
+        width: 20px;
     }
 }
 
@@ -1125,10 +1148,10 @@ footer {
 }
 
 .project-image {
-    display: block;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
+    display: block;
     filter: drop-shadow(3px 3px 3px rgba(109, 109, 109, 0.1));
 }
 
@@ -1137,10 +1160,10 @@ footer {
 }
 
 .cloud-text {
-    width: 100%;
     font-size: 13px;
-    text-align: center;
     margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
 }
 
 .autoplay {
@@ -1150,10 +1173,10 @@ footer {
 }
 
 .slider-container {
-    position: relative;
-    /* grid-area: 4/2; */
     grid-column: 1/4;
     grid-row: 4;
+    margin: 35px 0;
+    position: relative;
 }
 
 .slider {

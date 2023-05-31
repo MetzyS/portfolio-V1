@@ -20,10 +20,11 @@
                 }
                 ?>
                 <li><a href="?page=projets" class="drop-item"><?= $h_projects ?></a></li>
-                <li><a href="#" class="drop-item" id="menu-technos"><?= $h_technos ?><span class="expand-menu-icon"></span></a></li>
-                <li class="drop-animation hidden submenu" id="submenu"><a href="?page=technos" class="drop-item"><?= $h_technosAll ?></a></li>
+                <!-- en cours de dev-->
+                <!-- <li><a href="#" class="drop-item" id="menu-technos"><= $h_technos ?><span class="expand-menu-icon"></span></a></li> -->
+                <!-- <li class="drop-animation hidden submenu" id="submenu"><a href="?page=technos" class="drop-item"><= $h_technosAll ?></a></li>
                 <li class="drop-animation hidden submenu" id="submenu"><a href="?page=technos#git" class="drop-item">Git & GitHub</a></li>
-                <li class="drop-animation hidden submenu" id="submenu"><a href="?page=technos#bootstrap" class="drop-item">Bootstrap</a></li>
+                <li class="drop-animation hidden submenu" id="submenu"><a href="?page=technos#bootstrap" class="drop-item">Bootstrap</a></li> -->
                 <li><a href="?page=cv" class="drop-item"><?= $h_CV ?></a></li>
                 <li><a href="?page=contact" class="drop-item"><?= $h_contact ?></a></li>
                 <li>
@@ -51,15 +52,16 @@
                 <ul class="header-menu-desktop-list">
                     <li class="header-menu-desktop-item"><a href="?page=home" class="drop-item-desktop-a"><?= $h_home ?></a></li>
                     <li class="header-menu-desktop-item"><a href="?page=projets" class="drop-item-desktop-a"><?= $h_projects ?></a></li>
-                    <li class="header-menu-desktop-item technos-list"><a href="?page=technos" class="drop-item-desktop-a" id="drop-item-desktop-a-technos"><?= $h_technos ?></a>
-                        <ul class="header-desktop-submenu-list" id="submenu-list-desktop">
-                            <li class="header-menu-desktop-item"><a href="?page=technos" class="drop-item-desktop"><?= $h_technosAll ?></a>
+                    <!-- en cours de dev-->
+                    <!-- <li class="header-menu-desktop-item technos-list"><a href="?page=technos" class="drop-item-desktop-a" id="drop-item-desktop-a-technos"><= $h_technos ?></a> -->
+                    <!-- <ul class="header-desktop-submenu-list" id="submenu-list-desktop">
+                            <li class="header-menu-desktop-item"><a href="?page=technos" class="drop-item-desktop"><= $h_technosAll ?></a>
                             </li>
                             <li class="header-menu-desktop-item"><a href="?page=technos#git" class="drop-item-desktop">Git & Github</a>
                             </li>
                             <li class="header-menu-desktop-item"><a href="?page=technos#bootstrap" class="drop-item-desktop">Bootstrap</a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li class="header-menu-desktop-item"><a href="?page=cv" class="drop-item-desktop-a"><?= $h_CV ?></a></li>
                     <li class="header-menu-desktop-item"><a href="?page=contact" class="drop-item-desktop-a"><?= $h_contact ?></a></li>

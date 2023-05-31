@@ -54,16 +54,22 @@
                     </li>
                 </ul>
                 <div class="skills-flex-right">
-                    <div class="pre-container-home">
-                        <p class="code-title-home"><span><?= $codeGame_title ?></span>
-                        </p>
-
-                        <div class="pre-style-home">
-                            <p class="home-code-game">
-
-                            </p>
+                    <input type="button" class="skills-game-commands command-prev">
+                    <div class="morpion">
+                        <link rel="stylesheet" href="css/morpion.css">
+                        <p class="morpion-title"><span class="title"><?= $g_ticTacToc ?></span><?= $g_JS ?></p>
+                        <div class="commands">
+                            <div class="icons"><span class="cross-icon"></span><span class="circle-icon"></span></div>
+                            <span class="turn"><span id="turn-icon"></span></span>
+                            <button type="button" class="btn-reset" id="btn-reset" value="reset">
+                        </div>
+                        <div class="wrapper">
+                            <div class="game" id="game"></div>
+                            <p class="info" id="info"></p>
+                            <script src="js/morpion.js"></script>
                         </div>
                     </div>
+                    <input type="button" class="skills-game-commands command-next">
                 </div>
             </div>
         </div>
