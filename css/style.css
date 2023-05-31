@@ -348,6 +348,12 @@ body {
     grid-template-columns: 1fr 6fr 1fr;
 }
 
+@media screen and (min-width: 1024px) {
+    .grid-container {
+        grid-template-columns: 1fr 900px 1fr;
+    }
+}
+
 header {
     grid-area: 1/2;
     width: 100%;
@@ -581,8 +587,9 @@ header {
 }
 
 .competences-title {
-    text-transform: capitalize;
     font-size: var(--title-size);
+    font-weight: 800;
+    text-transform: capitalize;
 }
 
 .links-title {
@@ -595,7 +602,7 @@ header {
 
 .competences-title span {
     display: inline-block;
-    margin: 0 25px 15px 15px;
+    margin: 0 25px 35px 0px;
 }
 
 .skills-item {
@@ -606,7 +613,7 @@ header {
 }
 
 .skills-item span {
-    max-width: 80px;
+    max-width: 275px;
 }
 
 .skills-item span::first-letter {
@@ -625,8 +632,8 @@ header {
     }
 }
 
-.back-end {
-    margin: 25px 0 0;
+.ai {
+    margin: 55px 0 0;
     grid-area: 5/2;
 }
 
@@ -686,6 +693,8 @@ header {
 }
 
 .front-end-title-container {
+    display: flex;
+    /* flex-direction: column; */
     margin-bottom: 10px;
 }
 
@@ -765,6 +774,26 @@ header {
 
 .icon-github {
     background: url(../assets/img/github-icon.svg);
+}
+
+.icon-python {
+    background: url(../assets/img/python.svg);
+}
+
+.icon-flask {
+    background: url(../assets/img/flask.svg);
+}
+
+.icon-pandas {
+    background: url(../assets/img/pandas.svg);
+}
+
+.icon-matplotlib {
+    background: url(../assets/img/matplotlib.svg);
+}
+
+.icon-keras {
+    background: url(../assets/img/keras.svg);
 }
 
 .fr-flag {
@@ -906,10 +935,18 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+    .skills-title {
+        /* text-align: center; */
+    }
+
+    .competences-title {
+        /* text-align: center; */
+    }
+
     .skills-flex {
         display: flex;
-        justify-content: space-between;
-        gap: 50px;
+        justify-content: center;
+        gap: 300px;
     }
 
     .list-item {

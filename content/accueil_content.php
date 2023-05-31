@@ -18,117 +18,119 @@
     <div class="skills-title-container">
         <h2 class="skills-title"><?= $m_skillsTitle ?></h2>
     </div>
-    <div class="front-end">
-        <div class="front-end-title-container">
-            <h3 class="competences-title"><span class="front-end-01">01 </span>front end</h3>
-            <div class="skills-flex">
-                <ul class="skills-list">
-                    <li class="skills-item front-end-maq">
-                        <span class="skills-text"><?= $m_skillsDesignTitle ?></span>
-                        <ul class="list">
-                            <li class="list-item icon-figma"></li>
-                            <li class="list-item icon-photoshop"></li>
-                            <li class="list-item icon-illustrator"></li>
-                        </ul>
-                    </li>
-                    <li class="skills-item  front-end-dyn">
-                        <span class="skills-text"><?= $m_skillsDesignDetail ?></span>
-                        <ul class="list">
-                            <li class="list-item icon-html"></li>
-                            <li class="list-item icon-css"></li>
-                            <li class="list-item icon-js"></li>
-                        </ul>
-                    </li>
-                    <li class="skills-item front-end-cms">
-                        <span class="skills-text"><?= $m_skillsCmsTitle ?></span>
-                        <ul class="list">
-                            <li class="list-item icon-wordpress"></li>
-                        </ul>
-                    </li>
-                    <li class="skills-item  front-end-fw">
-                        <span class="skills-text"><?= $m_skillsFrameWorksTitle ?></span>
-                        <ul class="list">
-                            <li class="list-item icon-bootstrap"></li>
-                            <li class="list-item icon-tailwind"></li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="skills-flex-right">
-                    <input type="button" class="skills-game-commands command-prev">
-                    <div class="morpion">
-                        <link rel="stylesheet" href="css/morpion.css">
-                        <p class="morpion-title"><span class="title"><?= $g_ticTacToc ?></span><?= $g_JS ?></p>
-                        <div class="commands">
-                            <div class="icons"><span class="cross-icon"></span><span class="circle-icon"></span></div>
-                            <span class="turn"><span id="turn-icon"></span></span>
-                            <button type="button" class="btn-reset" id="btn-reset" value="reset">
-                        </div>
-                        <div class="wrapper">
-                            <div class="game" id="game"></div>
-                            <p class="info" id="info"></p>
-                            <script src="js/morpion.js"></script>
-                        </div>
-                    </div>
-                    <input type="button" class="skills-game-commands command-next">
-                </div>
-            </div>
+    <h3 class="competences-title"><span class="front-end-01">01 </span><?= $m_webDev ?></h3>
+    <div class="skills-flex">
+        <div class="front-end">
+            <p class="competences-title"><span>Front-End</span></p>
+            <ul class="skills-list">
+                <li class="skills-item front-end-first">
+                    <span class="skills-text"><?= $m_skillsDesignTitle ?></span>
+                    <ul class="list">
+                        <li class="list-item icon-figma"></li>
+                        <li class="list-item icon-photoshop"></li>
+                        <li class="list-item icon-illustrator"></li>
+                    </ul>
+                </li>
+                <li class="skills-item  front-end-sec">
+                    <span class="skills-text"><?= $m_skillsDesignDetail ?></span>
+                    <ul class="list">
+                        <li class="list-item icon-html"></li>
+                        <li class="list-item icon-css"></li>
+                        <li class="list-item icon-js"></li>
+                    </ul>
+                </li>
+                <li class="skills-item front-end-third">
+                    <span class="skills-text"><?= $m_skillsCmsTitle ?></span>
+                    <ul class="list">
+                        <li class="list-item icon-wordpress"></li>
+                    </ul>
+                </li>
+                <li class="skills-item  front-end-fourth">
+                    <span class="skills-text"><?= $m_skillsFrameWorksTitle ?></span>
+                    <ul class="list">
+                        <li class="list-item icon-bootstrap"></li>
+                        <li class="list-item icon-tailwind"></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
+        <div class="back-end">
+            <p class="competences-title"><span>Back-End</span></p>
+            <ul class="skills-list">
+                <li class="skills-item  back-end-first">
+                    <span class="skills-text"><?= $m_skillsDatabaseTitle ?></span>
+                    <ul class="list">
+                        <li class="list-item icon-mysql"></li>
+                        <li class="list-item icon-mariadb"></li>
+                        <li class="list-item icon-phpmyadmin"></li>
+                    </ul>
+                </li>
+                <li class="skills-item back-end-sec">
+                    <span class="skills-text"><?= $m_PDO ?></span>
+                    <ul class="list">
+                        <li class="list-item icon-php"></li>
+                    </ul>
+                </li>
+                <li class="skills-item back-end-third">
+                    <span class="skills-text"><?= $m_skillsFrameWorksTitle ?></span>
+                    <ul class="list">
+                        <li class="list-item icon-laravel"></li>
+                    </ul>
+                </li>
+                <li class="skills-item back-end-fourth">
+                    <span class="skills-text"><?= $m_skillsVersioning ?></span>
+                    <ul class="list">
+                        <li class="list-item icon-git"></li>
+                        <li class="list-item icon-github"></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
 </section>
-<div class="back-end">
-    <div class="back-end-container">
-        <h3 class="competences-title"><span class="back-end-02">02 </span>back end</h3>
-    </div>
-    <ul class="skills-list">
-        <li class="skills-item  back-end-maq">
-            <span class="skills-text"><?= $m_skillsDatabaseTitle ?></span>
-            <ul class="list">
-                <li class="list-item icon-mysql"></li>
-                <li class="list-item icon-mariadb"></li>
-                <li class="list-item icon-phpmyadmin"></li>
-            </ul>
-        </li>
-        <li class="skills-item back-end-dyn">
-            <span class="skills-text"><?= $m_PDO ?></span>
-            <ul class="list">
-                <li class="list-item icon-php"></li>
-            </ul>
-        </li>
-        <li class="skills-item back-end-dyn">
-            <span class="skills-text"><?= $m_skillsFrameWorksTitle ?></span>
-            <ul class="list">
-                <li class="list-item icon-laravel"></li>
-            </ul>
-        </li>
-        <li class="skills-item back-end-dyn">
-            <span class="skills-text"><?= $m_skillsSoftwares ?></span>
-            <ul class="list">
-                <li class="list-item icon-xampp"></li>
-                <li class="list-item icon-mamp"></li>
-            </ul>
-        </li>
-        <li class="skills-item back-end-dyn">
-            <span class="skills-text"><?= $m_skillsVersioning ?></span>
-            <ul class="list">
-                <li class="list-item icon-git"></li>
-                <li class="list-item icon-github"></li>
-            </ul>
-        </li>
-    </ul>
-</div>
-<div class="links-container">
-    <h3 class="links-title"><?= $m_linksTitle ?></h3>
-    <div class="links-items-wrapper">
-        <ul class="link-item">
-            <a href="https://www.linkedin.com/in/adn%C3%A8ne-hamzaoui-14a185256/" class="links-item linkedin-icon"></a>
-            <a href="https://www.linkedin.com/in/adn%C3%A8ne-hamzaoui-14a185256/" class="links-name" class="links-title">LinkedIn</a>
-        </ul>
-        <ul class="link-item">
-            <a href="https://github.com/MetzyS" class="links-item github-icon"></a>
-            <a href="https://github.com/MetzyS" class="links-name">GitHub</a>
-        </ul>
-        <ul class="link-item">
-            <a href="https://codepen.io/metzys" class="links-item codepen-icon"></a>
-            <a href="https://codepen.io/metzys" class="links-name">CodePen</a>
+<section class="ai">
+    <div>
+        <div class="ai-container">
+            <h3 class="competences-title"><span class="ai-02">02 </span><?= $m_AI ?></h3>
+        </div>
+        <ul class="skills-list">
+            <li class="skills-item  ai-first">
+                <span class="skills-text"><?= $m_skillsAIProgramming ?></span>
+                <ul class="list">
+                    <li class="list-item icon-python"></li>
+                    <li class="list-item icon-flask"></li>
+                </ul>
+            </li>
+            <li class="skills-item ai-second">
+                <span class="skills-text"><?= $m_AIVisualization ?></span>
+                <ul class="list">
+                    <li class="list-item icon-pandas"></li>
+                    <li class="list-item icon-matplotlib"></li>
+                </ul>
+            </li>
+            <li class="skills-item ai-third">
+                <span class="skills-text"><?= $m_AIDeepLearning ?></span>
+                <ul class="list">
+                    <li class="list-item icon-keras"></li>
+                </ul>
+            </li>
         </ul>
     </div>
-</div>
+    <div class="links-container">
+        <h3 class="links-title"><?= $m_linksTitle ?></h3>
+        <div class="links-items-wrapper">
+            <ul class="link-item">
+                <a href="https://www.linkedin.com/in/adn%C3%A8ne-hamzaoui-14a185256/" class="links-item linkedin-icon"></a>
+                <a href="https://www.linkedin.com/in/adn%C3%A8ne-hamzaoui-14a185256/" class="links-name" class="links-title">LinkedIn</a>
+            </ul>
+            <ul class="link-item">
+                <a href="https://github.com/MetzyS" class="links-item github-icon"></a>
+                <a href="https://github.com/MetzyS" class="links-name">GitHub</a>
+            </ul>
+            <ul class="link-item">
+                <a href="https://codepen.io/metzys" class="links-item codepen-icon"></a>
+                <a href="https://codepen.io/metzys" class="links-name">CodePen</a>
+            </ul>
+        </div>
+    </div>
+</section>

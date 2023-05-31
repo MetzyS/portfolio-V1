@@ -28,14 +28,18 @@ if ($lang == 'fr') {
     $m_aboutText = "Ancien directeur d'ACM avec plusieurs années d'expérience dans le monde de l'animation. J'ai décidé de me reconvertir dans le développement web en 2022, en raison de ma passion pour l'informatique, le code et les jeux vidéo.";
     $m_aboutTextShort = "Ancien directeur d'ACM aujourd'hui Développeur Web";
     $m_skillsTitle = 'competences';
+    $m_webDev = 'Développement Web';
     $m_skillsDesignTitle = 'maquetter';
     $m_skillsDesignDetail = 'interface statique & dynamique';
     $m_skillsCmsTitle = 'cms';
     $m_skillsFrameWorksTitle = 'frameworks';
-    $m_skillsSoftwares = 'logiciels';
     $m_skillsVersioning = 'versionnage';
     $m_skillsDatabaseTitle = 'BDD';
     $m_PDO = 'Accès aux données';
+    $m_AI = 'Intelligence Artificielle';
+    $m_skillsAIProgramming = 'Programmation';
+    $m_AIVisualization = 'Visualisation et traîtement des données';
+    $m_AIDeepLearning = 'Deep learning';
     $m_linksTitle = 'Liens';
 
     // Home - Games
@@ -166,14 +170,18 @@ if ($lang == 'en') {
     $m_aboutText = 'Former head of Communities Centers with many years of experience. I decided to switch to web development in 2022, driven by my passion for computers, coding and video games.';
     $m_aboutTextShort = 'Former head of Communities Center now Web Developper';
     $m_skillsTitle = 'skills';
+    $m_webDev = 'Web Development';
     $m_skillsDesignTitle = 'design';
     $m_skillsDesignDetail = 'static & dynamic';
     $m_skillsCmsTitle = 'cms';
     $m_skillsFrameWorksTitle = 'frameworks';
-    $m_skillsSoftwares = 'softwares';
     $m_skillsVersioning = 'versioning';
     $m_skillsDatabaseTitle = 'Database';
     $m_PDO = 'PDO';
+    $m_AI = 'Artificial Intelligence';
+    $m_skillsAIProgramming = 'Programming';
+    $m_AIVisualization = 'Data visualization and processing';
+    $m_AIDeepLearning = 'Deep learning';
     $m_linksTitle = 'Links';
 
     //Home - Games
