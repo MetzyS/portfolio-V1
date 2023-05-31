@@ -1626,6 +1626,14 @@ input:focus {
         display: flex;
         justify-content: space-around;
     }
+
+    #prev {
+        left: 10%;
+    }
+
+    #next {
+        right: 10%;
+    }
 }
 
 .cv-top-bar {
@@ -1811,5 +1819,13 @@ input:focus {
     .flex-title-c {
         display: flex;
         justify-content: center;
+    }
+
+    #prev {
+        left: 20%;
+    }
+
+    #next {
+        right: 20%;
     }
 }

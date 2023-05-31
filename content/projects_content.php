@@ -48,10 +48,9 @@ include 'common/breadcrumb.php';
     <div class="sep"></div>
     <div class="title-box-design">
         <div class="projects-skills">
-            <span class="projects-skills"><? $g_graphismTitle ?></span>
+            <span class="projects-skills"><?= $g_graphismTitle ?></span>
         </div>
     </div>
-    <span class="projects-skills"><?= $p_communication ?></span>
 </div>
 
 <div class="slider-container">
@@ -61,14 +60,12 @@ include 'common/breadcrumb.php';
     </div>
     <button class="close-button hidden">Fermer</button>
     <div class=" slider">
-        <div class="controls-wrapper">
-            <a class="control-button prev" id="prev">&lt;</a>
-            <a class="control-button next" id="next">&gt;</a>
-        </div>
         <div class="slides-wrapper">
+            <a class="control-button prev" id="prev">&lt;</a>
             <ul class="slides">
                 <li class="slide img-ludo" id="pop"></li>
             </ul>
+            <a class="control-button next" id="next">&gt;</a>
         </div>
     </div>
     <div class="autoplay">
