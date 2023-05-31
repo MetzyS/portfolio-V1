@@ -120,16 +120,16 @@
         <h3 class="links-title"><?= $m_linksTitle ?></h3>
         <div class="links-items-wrapper">
             <ul class="link-item">
-                <a href="https://www.linkedin.com/in/adn%C3%A8ne-hamzaoui-14a185256/" class="links-item linkedin-icon"></a>
-                <a href="https://www.linkedin.com/in/adn%C3%A8ne-hamzaoui-14a185256/" class="links-name" class="links-title">LinkedIn</a>
+                <li><a href="https://www.linkedin.com/in/adn%C3%A8ne-hamzaoui-14a185256/" class="links-item linkedin-icon"></a></li>
+                <li><a href="https://www.linkedin.com/in/adn%C3%A8ne-hamzaoui-14a185256/" class="links-name links-title">LinkedIn</a></li>
             </ul>
             <ul class="link-item">
-                <a href="https://github.com/MetzyS" class="links-item github-icon"></a>
-                <a href="https://github.com/MetzyS" class="links-name">GitHub</a>
+                <li><a href="https://github.com/MetzyS" class="links-item github-icon"></a></li>
+                <li><a href="https://github.com/MetzyS" class="links-name">GitHub</a></li>
             </ul>
             <ul class="link-item">
-                <a href="https://codepen.io/metzys" class="links-item codepen-icon"></a>
-                <a href="https://codepen.io/metzys" class="links-name">CodePen</a>
+                <li><a href="https://codepen.io/metzys" class="links-item codepen-icon"></a></li>
+                <li><a href="https://codepen.io/metzys" class="links-name">CodePen</a></li>
             </ul>
         </div>
     </div>

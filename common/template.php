@@ -37,7 +37,7 @@ include 'common/head.php';
     include 'common/footer.php';
 
     ?>
+    <script src="js/main.js"></script>
 </body>
-<script src="js/main.js"></script>
 
 </html>

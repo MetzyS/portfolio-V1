@@ -3,13 +3,13 @@
     <div class="waves-container">
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
             <defs>
-                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                <path id="gentle-wave-top" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
             </defs>
             <g class="parallax">
-                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(219, 233, 255, 0.1)" />
-                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(130, 168, 228, 0.3)" />
-                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(130, 168, 228, 0.1)" />
-                <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(219, 233, 255, 1)" />
+                <use xlink:href="#gentle-wave-top" x="48" y="0" fill="rgba(219, 233, 255, 0.1)" />
+                <use xlink:href="#gentle-wave-top" x="48" y="3" fill="rgba(130, 168, 228, 0.3)" />
+                <use xlink:href="#gentle-wave-top" x="48" y="5" fill="rgba(130, 168, 228, 0.1)" />
+                <use xlink:href="#gentle-wave-top" x="48" y="7" fill="rgba(219, 233, 255, 1)" />
             </g>
         </svg>
     </div>
@@ -62,7 +62,7 @@
                             <li class="header-menu-desktop-item"><a href="?page=technos#bootstrap" class="drop-item-desktop">Bootstrap</a>
                             </li>
                         </ul> -->
-                    </li>
+                    <!-- </li> -->
                     <li class="header-menu-desktop-item"><a href="?page=cv" class="drop-item-desktop-a"><?= $h_CV ?></a></li>
                     <li class="header-menu-desktop-item"><a href="?page=contact" class="drop-item-desktop-a"><?= $h_contact ?></a></li>
                 </ul>

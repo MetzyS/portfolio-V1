@@ -24,3 +24,4 @@
 31/05/23 -> HTML/CSS => modified homepage block disposition to get two separate sections (web dev/ai)
 31/05/23 -> HTML/CSS => added AI skillset + icons
 31/05/23 -> PHP => added translations variables for AI skillset
+31/05/23 -> HTML/CSS => fixed W3C Validator errors for Home Page
