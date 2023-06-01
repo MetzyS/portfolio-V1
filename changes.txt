@@ -30,3 +30,4 @@
 01/06/23 -> PHP => added translations variables for the new resume
 01/06/23 -> HTML/CSS => added my logo in footer
 01/06/23 -> cleaned CSS file (alphabetical order inside classes + removed some comments)
+01/06/23 -> changed default text color with a lighter black

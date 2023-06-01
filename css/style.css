@@ -10,7 +10,7 @@
     --bcg-color-secondary: rgb(130, 168, 228);
     --bcrumb-color: #d9d9d9;
     --separation-color: #D9D9D9;
-    --text-color: #0D0C0C;
+    --text-color: #323031;
     --title-size: 16px;
     --text-size: 14px;
     --cv-color: #748DB2;
@@ -949,13 +949,6 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-    .skills-title {
-        /* text-align: center; */
-    }
-
-    .competences-title {
-        /* text-align: center; */
-    }
 
     .skills-flex {
         display: flex;
