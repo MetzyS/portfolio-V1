@@ -53,17 +53,15 @@ Ma créativité et ma sociabilité font de moi un collaborateur dynamique et eng
     $p_communication = 'Communication:';
     $p_firstProjectTitle = 'Pelote et Rebelote';
     $p_firstProjectDetails = 'Site web Statique (responsive)';
-    $p_firstProjectTech = 'Langages utilisés: HTML, CSS';
     $p_secondProjectTitle = 'Walkman Media Player';
     $p_secondProjectDetails = 'Application web Dynamique (JS)';
-    $p_secondProjectTech = 'Langages utilisés: JS, HTML, CSS';
     $p_thirdProjectTitle = 'Cloud d&#39;entreprise*';
     $p_thirdProjectDetails = 'Application Web Dynamique (PHP)';
-    $p_thirdProjectTech = 'Langages utilisés: PHP, JS, SQL, HTML, CSS';
     $p_cloudDetails = '* Espace de partage, d&#39;archivage et de gestion de fichiers crée pour une entreprise, from scratch. Si vous souhaitez tester le site et avoir un aperçu du code, veuillez me contacter!';
     $p_fourthProjectTitle = 'Blog de Matt';
     $p_fourthProjectDetails = 'Blog WordPress';
-    $p_fourthProjectTech = 'Langages utilisés: CSS';
+    $p_fifthProjectTitle = 'L&#39;Univers du Téléphone';
+    $p_fifthProjectDetails = 'Site Web Dynamique (PHP)';
     $slider_firstSlideTitle = 'Ludothèque Familles Rurales';
     $slider_firstSlideSubtitle = 'Première de couverture projet pédagogique';
     $p_autoPlay = 'Défilement automatique';
@@ -221,16 +219,14 @@ if ($lang == 'en') {
     $p_communication = 'Communication:';
     $p_firstProjectTitle = 'Pelote et Rebelote';
     $p_firstProjectDetails = 'Static Website (responsive)';
-    $p_firstProjectTech = 'Languages used: HTML, CSS';
     $p_secondProjectTitle = 'Walkman Media Player';
     $p_secondProjectDetails = 'Dynamic Web Application (JS)';
-    $p_secondProjectTech = 'Languages used: JS, HTML, CSS';
     $p_thirdProjectTitle = 'Cloud Storage*';
     $p_thirdProjectDetails = 'Dynamic Web Application (PHP)';
-    $p_thirdProjectTech = 'Languages used: PHP, JS, SQL, HTML, CSS';
     $p_fourthProjectTitle = "Matt's Blog";
     $p_fourthProjectDetails = 'WordPress Blog';
-    $p_fourthProjectTech = 'Languages used: CSS';
+    $p_fifthProjectTitle = 'L&#39;Univers du Téléphone';
+    $p_fifthProjectDetails = 'Dynamic Website (PHP)';
     $p_cloudDetails = '* Platform for sharing, archiving and managing files. Created from scratch for a company. If you wish to test the web app and have a preview of the code, feel free to contact me!';
     $slider_firstSlideTitle = 'Toy Library (Familles Rurales)';
     $slider_firstSlideSubtitle = 'Cover page for the Educational Project';
@@ -327,3 +323,35 @@ if ($lang == 'en') {
     $cv_llcer = "L1 Literature, language, foreign civilizations";
     $cv_spebac = "Management Sciences and Technologies";
 };
+
+
+$firstProjectStack = '<div class="project-stack">
+                <span class="stack-detail stack-html">HTML</span>
+                <span class="stack-detail stack-css">CSS</span>
+            </div>';
+
+$secondProjectStack = '<div class="project-stack">
+                <span class="stack-detail stack-js">JS</span>
+                <span class="stack-detail stack-html">HTML</span>
+                <span class="stack-detail stack-css">CSS</span>
+            </div>';
+
+$thirdProjectStack = '<div class="project-stack"> <span class="stack-detail stack-php">PHP</span>
+                <span class="stack-detail stack-sql">SQL</span>
+                <span class="stack-detail stack-js">JS</span>
+                <span class="stack-detail stack-html">HTML</span>
+                <span class="stack-detail stack-css">CSS</span>
+            </div>';
+
+$fourthProjectStack = '<div class="project-stack"> <span class="stack-detail stack-php">PHP</span>
+                <span class="stack-detail stack-sql">SQL</span>
+                <span class="stack-detail stack-css">CSS</span>
+            </div>';
+
+$fifthProjectStack =
+    '<div class="project-stack"> <span class="stack-detail stack-php">PHP</span>
+                <span class="stack-detail stack-sql">SQL</span>
+                <span class="stack-detail stack-js">JS</span>
+                <span class="stack-detail stack-html">HTML</span>
+                <span class="stack-detail stack-css">CSS</span>
+            </div>';

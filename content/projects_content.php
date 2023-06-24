@@ -12,19 +12,27 @@ include 'common/breadcrumb.php';
     </div>
     <div class="projects">
         <div class="project-box">
-            <a href="https://metzys.net/tp-include/index.php" class="project-title">
+            <a href="https://metzys.net/projet-cloud/public/" class="project-title">
                 <h4><?= $p_thirdProjectTitle ?></h4>
             </a>
             <span class="project-details"><?= $p_thirdProjectDetails ?></span>
-            <span class="project-details"><?= $p_thirdProjectTech ?></span>
+            <?= $thirdProjectStack ?>
             <a href="https://metzys.net/projet-cloud/public/" class="project project-image img-cloud"></a>
+        </div>
+        <div class="project-box">
+            <a href="https://universdutelephone.fr/" class="project-title">
+                <h4><?= $p_fifthProjectTitle ?></h4>
+            </a>
+            <span class="project-details"><?= $p_fifthProjectDetails ?></span>
+            <?= $fifthProjectStack ?>
+            <a href="https://universdutelephone.fr/" class="project project-image img-univtelsite"></a>
         </div>
         <div class="project-box">
             <a href="https://metzys.net/projet-player/index.html" class="project-title">
                 <h4><?= $p_secondProjectTitle ?></h4>
             </a>
             <span class="project-details"><?= $p_secondProjectDetails ?></span>
-            <span class="project-details"><?= $p_secondProjectTech ?></span>
+            <?= $secondProjectStack ?>
             <a href="https://metzys.net/projet-player/index.html" class=" project project-image img-wmp"></a>
         </div>
         <div class="project-box">
@@ -32,15 +40,15 @@ include 'common/breadcrumb.php';
                 <h4><?= $p_firstProjectTitle ?></h4>
             </a>
             <span class="project-details"><?= $p_firstProjectDetails ?></span>
-            <span class="project-details"><?= $p_firstProjectTech ?></span>
+            <?= $firstProjectStack ?>
             <a href="http://www.metzys.net/projet-pelote/index.html" class="project project-image img-pelote"></a>
         </div>
-        <div class="project-box">
+        <div class="project-box project-cms">
             <a href="https://metzys.net/projet-cms/" class="project-title">
                 <h4><?= $p_fourthProjectTitle ?></h4>
             </a>
             <span class="project-details"><?= $p_fourthProjectDetails ?></span>
-            <span class="project-details"><?= $p_fourthProjectTech ?></span>
+            <?= $fourthProjectStack ?>
             <a href="https://metzys.net/projet-cms/" class="project project-image img-cms"></a>
         </div>
     </div>

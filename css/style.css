@@ -1039,6 +1039,10 @@ footer {
     margin: 10px 20px;
 }
 
+.project-cms {
+    min-width: 185px;
+}
+
 .project-box a {
     text-align: center;
 }
@@ -1074,8 +1078,17 @@ footer {
     font-size: var(--text-size)
 }
 
+.project-stack {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 5px 0;
+}
+
 .project-title,
-.project-details {
+.project-details,
+.stack-detail {
     align-self: center;
 }
 
@@ -1090,6 +1103,37 @@ footer {
     font-size: 14px;
     font-style: italic;
     text-align: center;
+}
+
+.stack-detail {
+    border-radius: 6px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.stack-php {
+    background-color: purple;
+}
+
+.stack-js {
+    color: black;
+    background-color: yellow;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.stack-sql {
+    background-color: blue;
+}
+
+.stack-html {
+    background-color: orangered;
+}
+
+.stack-css {
+    background-color: lightskyblue;
 }
 
 /* image */
@@ -1120,6 +1164,10 @@ footer {
 
 .img-cloud {
     background: url(../assets/img/cloud_homepage.jpg);
+}
+
+.img-univtelsite {
+    background: url(../assets/img/univtelsite.jpg);
 }
 
 .img-incl {
