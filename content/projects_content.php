@@ -36,12 +36,12 @@ include 'common/breadcrumb.php';
             <a href="https://metzys.net/projet-player/index.html" class=" project project-image img-wmp"></a>
         </div>
         <div class="project-box">
-            <a href="http://www.metzys.net/projet-pelote/index.html" class="project-title">
+            <a href="https://www.metzys.net/projet-pelote/index.html" class="project-title">
                 <h4><?= $p_firstProjectTitle ?></h4>
             </a>
             <span class="project-details"><?= $p_firstProjectDetails ?></span>
             <?= $firstProjectStack ?>
-            <a href="http://www.metzys.net/projet-pelote/index.html" class="project project-image img-pelote"></a>
+            <a href="https://www.metzys.net/projet-pelote/index.html" class="project project-image img-pelote"></a>
         </div>
         <div class="project-box project-cms">
             <a href="https://metzys.net/projet-cms/" class="project-title">
