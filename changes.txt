@@ -34,3 +34,4 @@
 24/06/23 -> HTML/CSS/PHP => changed style and created variables for languages used (project page)
 24/06/23 -> HTML/CSS/PHP => added new project (l'univers du téléphone)
 24/06/23 -> HTML => fixed a link that was not 'https'
+25/06/23 -> CSS => minor style changes (transition, colors..)

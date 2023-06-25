@@ -1247,8 +1247,12 @@ footer {
     background-size: contain;
 }
 
+.project-box {
+    transition: transform 150ms ease-in-out;
+}
+
 .project-box:hover {
-    background-color: rgba(130, 168, 228, 0.1);
+    transform: scale(1.05);
 }
 
 .cloud-text {
