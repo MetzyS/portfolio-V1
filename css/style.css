@@ -63,6 +63,11 @@
     width: 100%;
 }
 
+.header-menu-desktop-item {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 .header-menu-desktop-item:hover {
     background-color: var(--bcg-color-primary-accent);
 }
@@ -959,6 +964,16 @@ footer {
     .list-item {
         height: 45px;
         width: 45px;
+    }
+
+    .list-item,
+    .cv-icon {
+        transition: transform 100ms ease-in-out;
+    }
+
+    .list-item:hover,
+    .cv-icon:hover {
+        transform: scale(1.05);
     }
 
     .skills-item span {
