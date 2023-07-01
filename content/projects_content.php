@@ -14,6 +14,7 @@ include 'common/breadcrumb.php';
         <div class="project-box">
             <a href="https://metzys.net/projet-cloud/public/" class="project-title">
                 <h4><?= $p_thirdProjectTitle ?></h4>
+                <span class="redirect newtab-icon"></span>
             </a>
             <span class="project-details"><?= $p_thirdProjectDetails ?></span>
             <?= $thirdProjectStack ?>
@@ -22,6 +23,7 @@ include 'common/breadcrumb.php';
         <div class="project-box">
             <a href="https://universdutelephone.fr/" class="project-title">
                 <h4><?= $p_fifthProjectTitle ?></h4>
+                <span class="redirect newtab-icon"></span>
             </a>
             <span class="project-details"><?= $p_fifthProjectDetails ?></span>
             <?= $fifthProjectStack ?>
@@ -30,6 +32,7 @@ include 'common/breadcrumb.php';
         <div class="project-box">
             <a href="https://metzys.net/projet-player/index.html" class="project-title">
                 <h4><?= $p_secondProjectTitle ?></h4>
+                <span class="redirect newtab-icon"></span>
             </a>
             <span class="project-details"><?= $p_secondProjectDetails ?></span>
             <?= $secondProjectStack ?>
@@ -38,6 +41,7 @@ include 'common/breadcrumb.php';
         <div class="project-box">
             <a href="https://www.metzys.net/projet-pelote/index.html" class="project-title">
                 <h4><?= $p_firstProjectTitle ?></h4>
+                <span class="redirect newtab-icon"></span>
             </a>
             <span class="project-details"><?= $p_firstProjectDetails ?></span>
             <?= $firstProjectStack ?>
@@ -46,6 +50,7 @@ include 'common/breadcrumb.php';
         <div class="project-box project-cms">
             <a href="https://metzys.net/projet-cms/" class="project-title">
                 <h4><?= $p_fourthProjectTitle ?></h4>
+                <span class="redirect newtab-icon"></span>
             </a>
             <span class="project-details"><?= $p_fourthProjectDetails ?></span>
             <?= $fourthProjectStack ?>
